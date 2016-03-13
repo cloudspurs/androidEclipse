@@ -1,0 +1,61 @@
+--> Log type: entrance function log
+--> Function path: com/app/facelock/activity/FaceRegistActivity$2$1.smali
+--> Function name: onPictureTaken([BLandroid/hardware/Camera;)V
+
+--> Log type: applying sentence log
+--> Function path: com/app/facelock/activity/FaceRegistActivity$2$1.smali
+--> Function name: onPictureTaken([BLandroid/hardware/Camera;)V
+--> Target string: Landroid/hardware/Camera;->startPreview(
+
+--> Log type: entrance function log
+--> Function path: com/app/facelock/activity/FaceVerifyActivity$2.smali
+--> Function name: handleMessage(Landroid/os/Message;)V
+
+--> Log type: applying sentence log
+--> Function path: com/app/facelock/util/CommonUtil.smali
+--> Function name: playUnlock(Landroid/app/Activity;)V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: entrance function log
+--> Function path: com/app/facelock/activity/FaceVerifyActivity$4$1.smali
+--> Function name: onPictureTaken([BLandroid/hardware/Camera;)V
+
+--> Log type: applying sentence log
+--> Function path: com/app/facelock/activity/FaceVerifyActivity$4$1.smali
+--> Function name: onPictureTaken([BLandroid/hardware/Camera;)V
+--> Target string: Landroid/hardware/Camera;->startPreview(
+
+--> Log type: entrance function log
+--> Function path: com/app/facelock/activity/CommonLockActivity.smali
+--> Function name: onTouchEvent(Landroid/view/MotionEvent;)Z
+
+--> Log type: release sentence log
+--> Function path: com/app/facelock/activity/FaceVerifyActivity.smali
+--> Function name: renderSurface()V
+--> Target string: Landroid/hardware/Camera;->stopPreview(
+
+--> Log type: release sentence log
+--> Function path: com/app/facelock/activity/FaceVerifyActivity.smali
+--> Function name: onPause()V
+--> Target string: Landroid/hardware/Camera;->stopPreview(
+
+--> Log type: release sentence log
+--> Function path: com/app/facelock/activity/FaceVerifyActivity.smali
+--> Function name: surfaceDestroyed(Landroid/view/SurfaceHolder;)V
+--> Target string: Landroid/hardware/Camera;->stopPreview(
+
+--> Log type: release sentence log
+--> Function path: com/app/facelock/activity/FaceRegistActivity.smali
+--> Function name: renderSurface()V
+--> Target string: Landroid/hardware/Camera;->stopPreview(
+
+--> Log type: release sentence log
+--> Function path: com/app/facelock/activity/FaceRegistActivity.smali
+--> Function name: surfaceDestroyed(Landroid/view/SurfaceHolder;)V
+--> Target string: Landroid/hardware/Camera;->stopPreview(
+
+--> Log type: release sentence log
+--> Function path: com/app/facelock/activity/FaceRegistActivity$1.smali
+--> Function name: handleMessage(Landroid/os/Message;)V
+--> Target string: Landroid/hardware/Camera;->stopPreview(
+

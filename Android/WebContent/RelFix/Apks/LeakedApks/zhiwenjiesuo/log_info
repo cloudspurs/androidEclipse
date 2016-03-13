@@ -1,0 +1,9 @@
+--> Log type: entrance function log
+--> Function path: com/fingerprint/unlock/service/ScreenService$1.smali
+--> Function name: onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+
+--> Log type: applying sentence log
+--> Function path: com/fingerprint/unlock/service/ScreenService.smali
+--> Function name: acquireTimedWakeLock(Landroid/content/Context;J)V
+--> Target string: Landroid/os/PowerManager$WakeLock;->acquire(
+

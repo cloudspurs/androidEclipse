@@ -1,0 +1,9 @@
+--> Log type: entrance function log
+--> Function path: mixiaba/com/Browser/ui/activities/CaptureActivity.smali
+--> Function name: onResume()V
+
+--> Log type: applying sentence log
+--> Function path: mixiaba/com/Browser/ui/activities/CaptureActivity.smali
+--> Function name: onResume()V
+--> Target string: Landroid/media/MediaPlayer;-><init>(
+

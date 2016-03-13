@@ -1,0 +1,9 @@
+--> Log type: applying sentence log
+--> Function path: org/rest/resource_leak/onClick/MainActivity.smali
+--> Function name: onClick(Landroid/view/View;)V
+--> Target string: Landroid/media/AudioManager;->loadSoundEffects(
+
+--> Log type: applying sentence log
+--> Function path: org/rest/resource_leak/onClick/MainActivity.smali
+--> Function name: onClick(Landroid/view/View;)V
+--> Target string: Landroid/media/AudioManager;->loadSoundEffects(

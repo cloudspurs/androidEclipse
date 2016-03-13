@@ -1,0 +1,12 @@
+--> Log type: applying sentence log
+--> Function path: org/rest/resource_leak/underIf/MainActivity.smali
+--> Function name: onResume()V
+--> Target string: Landroid/nfc/NfcAdapter;->enableForegroundDispatch(
+
+--> Log type: release sentence log
+--> Function path: org/rest/resource_leak/underIf/MainActivity.smali
+--> Function name: onPause()V
+--> Target string: Landroid/nfc/NfcAdapter;->disableForegroundDispatch(
+
+
+

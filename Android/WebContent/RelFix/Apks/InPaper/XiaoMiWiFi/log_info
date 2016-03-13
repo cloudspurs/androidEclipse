@@ -1,0 +1,9 @@
+--> Log type: entrance function log
+--> Function path: com/xiaomi/mishare/service/ShareService.smali
+--> Function name: onCreate()V
+
+--> Log type: applying sentence log
+--> Function path: com/xiaomi/mishare/service/ShareService.smali
+--> Function name: onCreate()V
+--> Target string: Landroid/net/wifi/WifiManager$MulticastLock;->acquire(
+

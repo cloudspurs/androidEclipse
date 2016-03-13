@@ -1,0 +1,9 @@
+--> Log type: entrance function log
+--> Function path: com/zhiqupk/ziti/ZoneActivity.smali
+--> Function name: onCreate(Landroid/os/Bundle;)V
+
+--> Log type: applying sentence log
+--> Function path: com/zhiqupk/ziti/c/r.smali
+--> Function name: <init>(Lcom/zhiqupk/ziti/c/q;I)V
+--> Target string: Landroid/util/LruCache;-><init>(
+

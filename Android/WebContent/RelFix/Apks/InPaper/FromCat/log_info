@@ -1,0 +1,68 @@
+--> Log type: entrance function log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: onCreate(Landroid/os/Bundle;)V
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: applying sentence log
+--> Function path: com/gj/mew/MainActivity.smali
+--> Function name: initMediaPlayer()V
+--> Target string: Landroid/media/MediaPlayer;->create(
+
+--> Log type: entrance function log
+--> Function path: com/gj/mew/WelcomeActivity.smali
+--> Function name: onCreate(Landroid/os/Bundle;)V
+

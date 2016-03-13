@@ -1,0 +1,4 @@
+--> Log type: applying sentence log
+--> Function path: org/rest/resource_leak/onSensorChanged/MainActivity.smali
+--> Function name: onSensorChanged(Landroid/hardware/SensorEvent;)V
+--> Target string: Landroid/view/VelocityTracker;->obtain(

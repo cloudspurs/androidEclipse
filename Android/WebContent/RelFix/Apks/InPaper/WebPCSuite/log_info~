@@ -1,0 +1,32 @@
+--> Log type: entrance function log
+--> Function path: com/geeksoft/wps/activity/RealMainActivity.smali
+--> Function name: onCreate(Landroid/os/Bundle;)V
+
+--> Log type: applying sentence log
+--> Function path: com/geeksoft/wps/d/h.smali
+--> Function name: c(Landroid/content/Context;)V
+--> Target string: Landroid/os/PowerManager$WakeLock;->acquire(
+
+--> Log type: entrance function log
+--> Function path: com/geeksoft/wps/activity/trans_record_act/TranslateActivity.smali
+--> Function name: onClick(Landroid/view/View;)V
+
+--> Log type: entrance function log
+--> Function path: com/zxing/activity/CaptureActivity.smali
+--> Function name: onResume()V
+
+--> Log type: applying sentence log
+--> Function path: com/zxing/activity/CaptureActivity.smali
+--> Function name: e()V
+--> Target string: Landroid/media/MediaPlayer;-><init>(
+
+--> Log type: release sentence log
+--> Function path: cn/jpush/android/util/a.smali
+--> Function name: b()V
+--> Target string: Landroid/os/PowerManager$WakeLock;->release(
+
+--> Log type: release sentence log
+--> Function path: com/geeksoft/wps/d/h.smali
+--> Function name: a(Landroid/content/Intent;Landroid/content/Context;)V
+--> Target string: Landroid/os/PowerManager$WakeLock;->release(
+

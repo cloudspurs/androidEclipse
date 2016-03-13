@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+    <!-- 配置允许上传的文件大小 -->
+    <constant name="struts.multipart.maxSize" value="1048576000" />
+    
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="signin" class="signinAction">
+        	<result name="error">/WEB-INF/jsp/errorPage.jsp</result>
+        	<result name="success">/WEB-INF/jsp/homePage.jsp</result>
+        	<result name="input">/WEB-INF/jsp/signin.jsp</result>
+        </action>
+        <action name="signup" class="signupAction">
+        	<result name="success">/WEB-INF/jsp/signinPage.jsp</result>
+        	<result name="input">/WEB-INF/jsp/signupVeriCodePage.jsp</result>
+        	<result name="error">/WEB-INF/jsp/errorPage.jsp</result>
+        </action>
+        <action name="signupVeriCode" class="signupVeriCodeAction">
+        	<result name="success">/WEB-INF/jsp/signupVeriCodePage.jsp</result>
+        	<result name="emailUsed">/WEB-INF/jsp/emailUsedPage.jsp</result>
+        	<result name="error">/WEB-INF/jsp/errorPage.jsp</result>
+        </action>
+        <action name="sendVariCode" class="sendVariCodeAction">
+        	<result name="success">/WEB-INF/jsp/forgotPasswordVeriCodePage.jsp</result>
+        	<result name="noEmail">/WEB-INF/jsp/signupPage.jsp</result>
+        </action>
+        <action name="confirmVeriCode" class="confirmVeriCodeAction">
+        	<result name="success">/WEB-INF/jsp/changePasswordPage.jsp</result>
+        	<result name="input">/WEB-INF/jsp/forgotPasswordVeriCodePage.jsp</result>
+        </action>
+        <action name="changePassword" class="changePasswordAction">
+        	<result name="success">/WEB-INF/jsp/signinPage.jsp</result>
+        	<result name="input">/WEB-INF/jsp/changePasswordPage.jsp</result>
+        </action>
+        
+        <action name="RLExample1" class="RLExample1Action">
+        	<result name="success">/WEB-INF/jsp/errorPage.jsp</result>
+        	<result name="error"></result>
+        </action>
+        
+        <!-- 文件上传Action -->
+        <action name="Upload" class="fileUploadAction">
+        	<!-- 配置fileUpload拦截器 -->
+        	<interceptor-ref name="fileUpload">
+        		<!-- 配置上传的文件类型 -->
+        		<param name="allowedTypes">application/vnd.android.package-archive</param>
+        		<!-- 配置上传的文件大小 -->
+        		<param name="maximumSize">3145728</param>
+        	</interceptor-ref>
+        	<!-- 配置系统默认的拦截器 -->
+        	<interceptor-ref name="defaultStack"/>
+        	<!-- 配置savePath -->
+        	<param name="savePath">/apks</param>
+        	<!-- 配置结果 -->
+        	<result name="success">/WEB-INF/jsp/fileUploadPage.jsp</result>
+        	<result name="input">/WEB-INF/jsp/homePage.jsp</result>
+        </action>
+        <action name="fileDownload" class="fileDownloadAction">
+        	<param name="inputPath">/home/cloud/tmp.txt</param>
+        	<result type="stream">
+        		<param name="contentType"></param>
+        		<param name="inputName">targetFile</param>
+        		<param name="contentDisposition">filename="tmp.txt"</param>
+        		<param name="bufferSize">4096</param>
+        	</result>	
+        </action>
+        
+        <action name="*">
+            <result>/WEB-INF/jsp/{1}.jsp</result>
+        </action>
+    </package>
+</struts>
