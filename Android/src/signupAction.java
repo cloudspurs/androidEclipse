@@ -1,13 +1,6 @@
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
-
 public class signupAction extends ActionSupport {
 	private static final long serialVersionUID = 1L;
 	
@@ -36,8 +29,6 @@ public class signupAction extends ActionSupport {
 		Users user = new Users();
 		user.setEamil(email);
 		user.setPassword(password);
-		
-		e
 		
 		return "success";
 	}

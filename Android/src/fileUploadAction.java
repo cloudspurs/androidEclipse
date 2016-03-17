@@ -1,6 +1,10 @@
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 import org.apache.struts2.ServletActionContext;
 
@@ -45,8 +49,9 @@ public class fileUploadAction extends ActionSupport {
 	
 	public String execute() throws Exception {
 		// 防止没选中文件直接上传
-		if(getUpload() == null)
+		if(getUpload() == null) {
 			return "input";
+		}
 		
 		// 新建上传后的文件做为输出流，接收上传文件
 		FileOutputStream fos = new FileOutputStream(getSavePath()
@@ -62,6 +67,32 @@ public class fileUploadAction extends ActionSupport {
 		}
 		fos.close();
 		fis.close();
+		
+		
+		String command ="scp " + getUploadFileName() +" root@121.42.139.144:/root/cloud/java";
+		String cmd[] = {"/bin/sh", "-c", command};
+		File dir = new File(getSavePath());
+		
+		try {
+			Runtime runtime = Runtime.getRuntime();
+			Process process = runtime.exec(cmd, null, dir);
+			// 取得命令结果的输出流  
+		    InputStream is = process.getInputStream();  
+		    // 用一个读输出流类去读  
+		    InputStreamReader isr = new InputStreamReader(is);  
+		    // 用缓冲器读行  
+		    BufferedReader br = new BufferedReader(isr);  
+		    String line = null;  
+		    while ((line = br.readLine()) != null) {  
+		        System.out.println(line);  
+		    }  
+		    is.close();  
+		    isr.close();  
+		    br.close();  
+		} catch (IOException e) {  
+		    e.printStackTrace();  
+		}
+		
 		return "success";	
 	}
 }

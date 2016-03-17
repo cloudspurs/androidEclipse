@@ -46,8 +46,9 @@
         <div class="tab-content">
             <div id="tab0" class="active tab-pane h-div">
             <!-- 文件上传表单 -->
-	            <form action="upload" method="post" enctype="multipart/form-data">
-	            	<input type="file" name="upload" id="file">
+	            <form action="Upload" method="post" enctype="multipart/form-data">
+	            	<input type="file" name="upload">
+	            	<s:fielderror></s:fielderror>
 	            	<button type="submit">上传</button>
 	            </form>	
             </div>
