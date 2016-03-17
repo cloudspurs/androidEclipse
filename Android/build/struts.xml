@@ -75,16 +75,6 @@
         	</result>
         </action>
         
-        <action name="fileDownload" class="fileDownloadAction">
-        	<param name="inputPath">/home/cloud/tmp.txt</param>
-        	<result type="stream">
-        		<param name="contentType"></param>
-        		<param name="inputName">targetFile</param>
-        		<param name="contentDisposition">filename="tmp.txt"</param>
-        		<param name="bufferSize">4096</param>
-        	</result>	
-        </action>
-        
         <action name="*">
             <result>/WEB-INF/jsp/{1}.jsp</result>
         </action>

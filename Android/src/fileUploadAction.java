@@ -6,8 +6,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.EmailException;
+import org.apache.commons.mail.MultiPartEmail;
+import org.apache.commons.mail.EmailAttachment;
 import org.apache.struts2.ServletActionContext;
-
 import com.opensymphony.xwork2.ActionSupport;
 
 public class fileUploadAction extends ActionSupport {
@@ -92,6 +95,69 @@ public class fileUploadAction extends ActionSupport {
 		} catch (IOException e) {  
 		    e.printStackTrace();  
 		}
+		
+		String name = getUploadFileName().toString();
+		name = name.substring(0, name.length() - 5);
+		name = name + ".class";
+		
+		command = "scp " + "root@121.42.139.144:/root/cloud/java/" + name + " /home/cloud/cloud";
+		String cmdBack[] = {"/bin/sh", "-c", command};
+		
+		try {
+			Thread.sleep(5000);
+		} catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		try {
+			Runtime runtime = Runtime.getRuntime();
+			Process process = runtime.exec(cmdBack);
+			// 取得命令结果的输出流  
+		    InputStream is = process.getInputStream();  
+		    // 用一个读输出流类去读  
+		    InputStreamReader isr = new InputStreamReader(is);  
+		    // 用缓冲器读行  
+		    BufferedReader br = new BufferedReader(isr);  
+		    String line = null;  
+		    while ((line = br.readLine()) != null) {  
+		        System.out.println(line);  
+		    }  
+		    is.close();  
+		    isr.close();  
+		    br.close();  
+		} catch (IOException e) {  
+		    e.printStackTrace();  
+		}
+		
+		MultiPartEmail email = new MultiPartEmail();       
+		//是否TLS校验，，某些邮箱需要TLS安全校验，同理有SSL校验
+		//email.setTLS(true);   
+		//email.setSSL(true); 
+        email.setDebug(true);	// 打印调试信息
+        // 设置SMTP服务器地址
+        email.setHostName("smtp.163.com");
+        // 设置账户密码
+        email.setAuthenticator(new DefaultAuthenticator("18612481825@163.com", "qydg45683968"));  
+        try {
+        	// 新建附件
+        	EmailAttachment attachment = new EmailAttachment();
+        	attachment.setPath("/home/cloud/cloud/" + name);  
+        	attachment.setDisposition(EmailAttachment.ATTACHMENT);  
+        	attachment.setDescription("name");  
+        	attachment.setName("name");
+        	email.setFrom("18612481825@163.com"); 	//发送方,这里可以写多个  
+        	email.addTo("443051430@qq.com"); 		// 接收方  
+        	//email.addCc("443051430@qq.com"); 		// 抄送方  
+        	//email.addBcc("443051430@qq.com"); 	// 秘密抄送方  
+        	email.setCharset("utf-8");  
+        	email.setSubject("result"); 				// 标题  
+        	email.setMsg("result");
+        	email.attach(attachment);
+        	email.send();  
+        	System.out.println("发送成功");  
+        } catch (EmailException e) {    
+            e.printStackTrace();    
+        }
 		
 		return "success";	
 	}
