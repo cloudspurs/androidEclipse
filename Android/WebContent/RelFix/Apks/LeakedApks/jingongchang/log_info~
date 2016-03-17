@@ -1,9 +1,0 @@
---> Log type: entrance function log
---> Function path: com/zbar/lib/CaptureActivity.smali
---> Function name: onResume()V
-
---> Log type: applying sentence log
---> Function path: com/zbar/lib/CaptureActivity.smali
---> Function name: g()V
---> Target string: Landroid/media/MediaPlayer;-><init>(
-

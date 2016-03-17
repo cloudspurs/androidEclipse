@@ -14,7 +14,6 @@ public class fileUploadAction extends ActionSupport {
 	private String uploadFileName;		// 文件名
 	private String savePath;			// 保存路径
 	
-	// 读取struts.xml配置的文件保存路径信息
 	public void setSavePath(String path) {
 		this.savePath = path;
 	}

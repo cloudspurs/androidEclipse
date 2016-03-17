@@ -1,9 +1,0 @@
---> Log type: entrance function log
---> Function path: com/umeng/message/local/UmengLocalNotificationService.smali
---> Function name: onHandleIntent(Landroid/content/Intent;)V
-
---> Log type: applying sentence log
---> Function path: com/umeng/message/local/UmengNotificationBuilder.smali
---> Function name: g(Landroid/content/Context;)V
---> Target string: Landroid/os/PowerManager$WakeLock;->acquire(
-

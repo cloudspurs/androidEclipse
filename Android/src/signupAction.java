@@ -37,20 +37,7 @@ public class signupAction extends ActionSupport {
 		user.setEamil(email);
 		user.setPassword(password);
 		
-		// 获取数据库配置，生成Session
-		Configuration conf = new Configuration().configure();
-		ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
-			.applySettings(conf.getProperties()).build();
-		SessionFactory sf = conf.buildSessionFactory(serviceRegistry);
-		Session sess = sf.openSession();
-		Transaction tx = sess.beginTransaction();
-		
-		//将user存入数据库
-		sess.save(user);	
-		tx.commit();
-		
-		sess.close();
-		sf.close();
+		e
 		
 		return "success";
 	}

@@ -1,4 +1,0 @@
---> Log type: applying sentence log
---> Function path: org/rest/resource_leak/onCreate_Ac/MainActivity.smali
---> Function name: onCreate(Landroid/os/Bundle;)V
---> Target string: Landroid/hardware/Camera;->open(

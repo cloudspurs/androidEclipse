@@ -39,27 +39,74 @@
         </action>
         
         <action name="RLExample1" class="RLExample1Action">
-        	<result name="success">/WEB-INF/jsp/errorPage.jsp</result>
-        	<result name="error"></result>
+        	<result name="success">/WEB-INF/jsp/RLResult1Page.jsp</result>
+        </action>
+        <action name="RLResult1Download" class="RLResult1DownloadAction">
+        	<param name="inputPath">/WEB-INF/RelFix/Apks/Benchmarks/onClick/onActivityResult_fixed.apk</param>
+        	<result name="success" type="stream">
+        		<!-- 设置允许下载的文件类型 -->
+        		<param name="contentType">application/vnd.android.package-archive</param>
+        	 	<!-- 指定下载文件的文件位置 -->
+        	 	<param name="inputName">targetFile</param>
+        	 	<!-- 指定文件下载后的文件名 -->
+        	 	<param name="contentDisposition">attachment; filename="onActivityResult_fixed.apk"</param>
+        	 	<!-- 指定缓冲区大小 -->
+        	 	<param name="bufferSize">4096</param>"
+        	</result>
+        </action>
+        
+        <action name="RLExample2" class="RLExample2Action">
+        	<result name="success">/WEB-INF/jsp/RLResult2Page.jsp</result>
+        </action>
+        <action name="RLResult2Download" class="RLResult2DownloadAction">
+        	<param name="inputPath">/WEB-INF/RelFix/Apks/Benchmarks/onClick/onClick_fixed.apk</param>
+        	<result name="success" type="stream">
+        		<!-- 设置允许下载的文件类型 -->
+        		<param name="contentType">application/vnd.android.package-archive</param>
+        	 	<!-- 指定下载文件的文件位置 -->
+        	 	<param name="inputName">targetFile</param>
+        	 	<!-- 指定文件下载后的文件名 -->
+        	 	<param name="contentDisposition">attachment; filename="onClick_fixed.apk"</param>
+        	 	<!-- 指定缓冲区大小 -->
+        	 	<param name="bufferSize">4096</param>"
+        	</result>
+        </action>
+        
+        <action name="RLExample3" class="RLExample3Action">
+        	<result name="success">/WEB-INF/jsp/RLResult3Page.jsp</result>
+        </action>
+        <action name="RLResult3Download" class="RLResult3DownloadAction">
+        	<param name="inputPath">/WEB-INF/RelFix/Apks/Benchmarks/onClick/onClickOnClick_fixed.apk</param>
+        	<result name="success" type="stream">
+        		<!-- 设置允许下载的文件类型 -->
+        		<param name="contentType">application/vnd.android.package-archive</param>
+        	 	<!-- 指定下载文件的文件位置 -->
+        	 	<param name="inputName">targetFile</param>
+        	 	<!-- 指定文件下载后的文件名 -->
+        	 	<param name="contentDisposition">attachment; filename="onClickOnClick_fixed.apk"</param>
+        	 	<!-- 指定缓冲区大小 -->
+        	 	<param name="bufferSize">4096</param>"
+        	</result>
         </action>
         
         <!-- 文件上传Action -->
-        <action name="Upload" class="fileUploadAction">
+        <action name="upload" class="fileUploadAction">
         	<!-- 配置fileUpload拦截器 -->
         	<interceptor-ref name="fileUpload">
-        		<!-- 配置上传的文件类型 -->
-        		<param name="allowedTypes">application/vnd.android.package-archive</param>
+        		<!-- 配置上传的文件类型(纯文本） -->
+        		<param name="allowedTypes">text/plain</param>
         		<!-- 配置上传的文件大小 -->
         		<param name="maximumSize">3145728</param>
         	</interceptor-ref>
         	<!-- 配置系统默认的拦截器 -->
         	<interceptor-ref name="defaultStack"/>
         	<!-- 配置savePath -->
-        	<param name="savePath">/apks</param>
+        	<param name="savePath">/temp</param>
         	<!-- 配置结果 -->
         	<result name="success">/WEB-INF/jsp/fileUploadPage.jsp</result>
         	<result name="input">/WEB-INF/jsp/homePage.jsp</result>
         </action>
+        
         <action name="fileDownload" class="fileDownloadAction">
         	<param name="inputPath">/home/cloud/tmp.txt</param>
         	<result type="stream">

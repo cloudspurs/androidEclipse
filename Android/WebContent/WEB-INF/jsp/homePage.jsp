@@ -26,7 +26,9 @@
     <div class="nav-collapse collapse">
         <ul class="nav">
         	<li><a class="brand" href="#">ISCAS</a></li>
-            <li><a href="<s:url action="managePage"/>">管理</a></li>           
+        	<!-- 
+            <li><a href="<s:url action="managePage"/>">管理</a></li>
+            -->           
         </ul>
         <form class="navbar-search pull-right">
             <input type="text" class="search-query" placeholder="Search">
@@ -38,28 +40,32 @@
 
     <div class="container">
         <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab0" data-toggle="tab">Resource Leak</a></li>
-            <li><a href="#tab1" data-toggle="tab">Section 2</a></li>
+            <li class="active"><a href="#tab0" data-toggle="tab">Android</a></li>
+            <li><a href="#tab1" data-toggle="tab">Resource Leak</a></li>
         </ul>
         <div class="tab-content">
             <div id="tab0" class="active tab-pane h-div">
-            <div class="container-fluid">
-            <div class="row-fluid">
-            	<div class="span4 text-center">
-            		<a href="<s:url action="RLExample1"/>">Resource Leak Example1</a> 	 
-            	</div>
-            	<div class="span4 text-center">
-            	 	<a href="<s:url action="RLExample2"/>">Resource Leak Example2</a>  
-            	</div>
-            	<div class="span4 text-center">
-            		<a href="<s:url action="RLExample3"/>">Resource Leak Example3</a> 
-            	</div>	 
-            </div>
-            </div>		
+            <!-- 文件上传表单 -->
+	            <form action="upload" method="post" enctype="multipart/form-data">
+	            	<input type="file" name="upload" id="file">
+	            	<button type="submit">上传</button>
+	            </form>	
             </div>
             
             <div id="tab1" class="tab-pane h-div">
-                <p class="text-center">section2</p> 
+            <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span4 text-center">
+            		<a href="<s:url action="RLExample1"/>">onActivityResult</a> 	 
+            	</div>
+            	<div class="span4 text-center">
+            	 	<a href="<s:url action="RLExample2"/>">onClick</a>  
+            	</div>
+            	<div class="span4 text-center">
+            		<a href="<s:url action="RLExample3"/>">onClickOnClick</a> 
+            	</div>	 
+            </div>
+            </div>	
             </div>
         </div>
     </div>

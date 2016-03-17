@@ -1,9 +1,0 @@
---> Log type: entrance function log
---> Function path: cn/com/newsora/mama/MipcaActivityCapture.smali
---> Function name: onResume()V
-
---> Log type: applying sentence log
---> Function path: cn/com/newsora/mama/MipcaActivityCapture.smali
---> Function name: onResume()V
---> Target string: Landroid/media/MediaPlayer;-><init>(
-

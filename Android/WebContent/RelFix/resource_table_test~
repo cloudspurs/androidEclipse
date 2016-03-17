@@ -1,6 +1,0 @@
-Landroid/hardware/Camera;->open(:Landroid/hardware/Camera;->release()V:onPause():3
-Landroid/hardware/Camera;->startFaceDetection(:Landroid/hardware/Camera;->stopFaceDetection()V:onPause():1
-Landroid/hardware/Camera;->startPreview(:Landroid/hardware/Camera;->stopPreview()V:onPause():2
-Landroid/media/AudioManager;->requestAudioFocus(:Landroid/media/AudioManager;->abandonAudioFocus(Landroid/media/AudioManager$OnAudioFocusChangeListener;)I:onPause():1:0
-Landroid/media/AudioRecord;-><init>(:Landroid/media/AudioRecord;->release()V:onDestroy():0
-Landroid/media/MediaPlayer;-><init>(:Landroid/media/MediaPlayer;->release()V:onDestroy():1
