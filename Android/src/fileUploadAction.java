@@ -143,8 +143,8 @@ public class fileUploadAction extends ActionSupport {
         	EmailAttachment attachment = new EmailAttachment();
         	attachment.setPath("/home/cloud/cloud/" + name);  
         	attachment.setDisposition(EmailAttachment.ATTACHMENT);  
-        	attachment.setDescription("name");  
-        	attachment.setName("name");
+        	attachment.setDescription(name);  
+        	attachment.setName(name);
         	email.setFrom("18612481825@163.com"); 	//发送方,这里可以写多个  
         	email.addTo("443051430@qq.com"); 		// 接收方  
         	//email.addCc("443051430@qq.com"); 		// 抄送方  
