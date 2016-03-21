@@ -63,7 +63,6 @@ public class changePasswordAction extends ActionSupport {
 		
 		// 更新数据库用户信息
 		sess.merge(user);
-		
 		tx.commit();
 		
 		sess.close();
