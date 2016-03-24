@@ -1,0 +1,6 @@
+computeSourcePath=true
+contextsDir=/home/mqg/tomcat8/conf/Catalina/localhost
+eclipse.preferences.version=1
+tomcatConfigFile=/home/mqg/tomcat8/conf/server.xml
+tomcatDir=/home/mqg/tomcat8
+tomcatVersion=tomcatV7

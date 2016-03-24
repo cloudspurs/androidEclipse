@@ -17,10 +17,11 @@ public class fileUploadAction extends ActionSupport {
 	private static final long serialVersionUID = 1L;
 	
 	private File upload;	// 上传的文件
-	private String uploadContentType;	// 文件类型
 	private String uploadFileName;		// 文件名
+	private String uploadContentType;	// 文件类型
+
+/* *******************************************************************	
 	private String savePath;			// 保存路径
-	
 	public void setSavePath(String path) {
 		this.savePath = path;
 	}
@@ -28,6 +29,7 @@ public class fileUploadAction extends ActionSupport {
 	private String getSavePath() throws Exception {
 		return ServletActionContext.getServletContext().getRealPath(savePath);
 	}
+*********************************************************************** */
 	
 	public void setUpload(File upload) {
 		this.upload = upload;
@@ -35,7 +37,7 @@ public class fileUploadAction extends ActionSupport {
 	public File getUpload() {
 		return(this.upload);
 	}
-	
+
 	public void setUploadContentType(String uploadContentType) {
 		this.uploadContentType = uploadContentType;
 	}
@@ -57,7 +59,7 @@ public class fileUploadAction extends ActionSupport {
 		}
 		
 		// 新建上传后的文件做为输出流，接收上传文件
-		FileOutputStream fos = new FileOutputStream("/home/mqg/android/" + getUploadFileName());
+		FileOutputStream fos = new FileOutputStream("/home/mqg/android/relda/" + getUploadFileName());
 		// 把上传文件作为输入流
 		FileInputStream fis = new FileInputStream(getUpload());
 		// 设置缓冲

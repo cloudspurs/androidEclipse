@@ -1,0 +1,23 @@
+import com.opensymphony.xwork2.*;
+
+public class signupAction extends ActionSupport {
+	private static final long serialVersionUID = 1L;
+	
+	private String veriCode;
+	
+	public String getVeriCode() {
+		return veriCode;
+	}
+	public void setVeriCode(String veriCode) {
+		this.veriCode = veriCode;
+	}
+	
+	public String execute() throws Exception {
+		String veriCode = (String)(ActionContext.getContext().getSession().get("veriCode"));
+		
+		if (veriCode == getVeriCode())
+			return "success";
+		else
+			return "input";
+	}
+}

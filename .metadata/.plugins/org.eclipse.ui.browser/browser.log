@@ -1,0 +1,115 @@
+
+Feb 20, 2016 21:43:07.93 NEW SESSION
+Feb 20, 2016 21:43:07.93 
+Feb 20, 2016 21:43:07.93 (process:3417): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Feb 20, 2016 21:43:22.47 1455975802473	addons.xpi	WARN	Add-on webapps-team@lists.launchpad.net is missing bootstrap method install
+Feb 20, 2016 21:43:23.07 
+Feb 20, 2016 21:43:23.07 (process:3484): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Feb 20, 2016 21:43:24.09 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:24.09 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:24.09 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:24.09 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:24.09 get_contentWindow@chrome://global/content/bindings/browser.xml:428:54
+Feb 20, 2016 21:43:24.09 get_outerWindowID@chrome://global/content/bindings/browser.xml:412:11
+Feb 20, 2016 21:43:24.09 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3888:13
+Feb 20, 2016 21:43:24.14 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:24.14 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:24.14 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:24.14 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:24.14 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:24.14 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:24.14 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:24.14 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:24.39 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:24.39 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:24.39 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:24.39 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:27.81 1455975807812	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4451:9 < shutdownObserver@XPIProvider.jsm:2192:13
+Feb 20, 2016 21:43:45.21 
+Feb 20, 2016 21:43:45.21 (process:3561): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Feb 20, 2016 21:43:45.70 1455975825708	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: TypeError: XPIProvider.installLocationsByName is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:4) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:312:5 < this.XPIDatabase.parseDB@XPIProviderUtils.js:629:24 < XPIDB_asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:732:9 < Handler.prototype.process@Promise-backend.js:867:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:746:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:688:37 < Spinner.prototype.observe@AsyncShutdown.jsm:464:9
+Feb 20, 2016 21:43:45.70 1455975825709	addons.xpi-utils	WARN	Rebuilding add-ons database from installed extensions.
+Feb 20, 2016 21:43:45.71 1455975825709	addons.xpi-utils	ERROR	Failed to rebuild XPI database from installed extensions: TypeError: this.installLocations is null (resource://gre/modules/addons/XPIProvider.jsm:3365) JS Stack trace: XPI_processFileChanges@XPIProvider.jsm:3365:1 < XIPDB_rebuildDatabase@XPIProviderUtils.js:779:9 < this.XPIDatabase.parseDB@XPIProviderUtils.js:650:7 < XPIDB_asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:732:9 < Handler.prototype.process@Promise-backend.js:867:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:746:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:688:37 < Spinner.prototype.observe@AsyncShutdown.jsm:464:9
+Feb 20, 2016 21:43:45.71 1455975825711	addons.manager	ERROR	Exception calling provider GMPProvider.getAddonByID: TypeError: this._plugins is null (resource://gre/modules/addons/GMPProvider.jsm:581:8) JS Stack trace: GMPProvider.getAddonByID@GMPProvider.jsm:581:9 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2109:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2114:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:423:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2109:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2114:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3824:7 < makeSafe/<@XPIProviderUtils.js:145:17 < getRepositoryAddon@XPIProviderUtils.js:126:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1074:9 < Handler.prototype.process@Promise-backend.js:867:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:746:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:688:37 < Spinner.prototype.observe@AsyncShutdown.jsm:464:9
+Feb 20, 2016 21:43:45.85 
+Feb 20, 2016 21:43:45.85 (process:3608): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Feb 20, 2016 21:43:46.65 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:46.65 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:46.65 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:46.65 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:46.65 get_contentWindow@chrome://global/content/bindings/browser.xml:428:54
+Feb 20, 2016 21:43:46.65 get_outerWindowID@chrome://global/content/bindings/browser.xml:412:11
+Feb 20, 2016 21:43:46.65 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3888:13
+Feb 20, 2016 21:43:46.70 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:46.70 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:46.70 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:46.70 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:46.70 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:46.70 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:46.70 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:46.70 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:47.02 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:43:47.02 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:43:47.02 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:43:47.02 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:43:49.58 1455975829587	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4451:9 < shutdownObserver@XPIProvider.jsm:2192:13
+Feb 20, 2016 21:45:05.49 
+Feb 20, 2016 21:45:05.49 (process:3762): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Feb 20, 2016 21:45:05.92 1455975905928	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: TypeError: XPIProvider.installLocationsByName is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:4) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:312:5 < this.XPIDatabase.parseDB@XPIProviderUtils.js:629:24 < XPIDB_asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:732:9 < Handler.prototype.process@Promise-backend.js:867:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:746:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:688:37 < Spinner.prototype.observe@AsyncShutdown.jsm:464:9
+Feb 20, 2016 21:45:05.92 1455975905928	addons.xpi-utils	WARN	Rebuilding add-ons database from installed extensions.
+Feb 20, 2016 21:45:05.92 1455975905929	addons.xpi-utils	ERROR	Failed to rebuild XPI database from installed extensions: TypeError: this.installLocations is null (resource://gre/modules/addons/XPIProvider.jsm:3365) JS Stack trace: XPI_processFileChanges@XPIProvider.jsm:3365:1 < XIPDB_rebuildDatabase@XPIProviderUtils.js:779:9 < this.XPIDatabase.parseDB@XPIProviderUtils.js:650:7 < XPIDB_asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:732:9 < Handler.prototype.process@Promise-backend.js:867:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:746:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:688:37 < Spinner.prototype.observe@AsyncShutdown.jsm:464:9
+Feb 20, 2016 21:45:05.93 1455975905930	addons.manager	ERROR	Exception calling provider GMPProvider.getAddonByID: TypeError: this._plugins is null (resource://gre/modules/addons/GMPProvider.jsm:581:8) JS Stack trace: GMPProvider.getAddonByID@GMPProvider.jsm:581:9 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2109:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2114:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:423:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2109:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2114:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3824:7 < makeSafe/<@XPIProviderUtils.js:145:17 < getRepositoryAddon@XPIProviderUtils.js:126:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1074:9 < Handler.prototype.process@Promise-backend.js:867:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:746:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:688:37 < Spinner.prototype.observe@AsyncShutdown.jsm:464:9
+Feb 20, 2016 21:45:06.08 
+Feb 20, 2016 21:45:06.08 (process:3810): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Feb 20, 2016 21:45:06.87 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:06.87 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:06.87 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:06.87 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:06.87 get_contentWindow@chrome://global/content/bindings/browser.xml:428:54
+Feb 20, 2016 21:45:06.87 get_outerWindowID@chrome://global/content/bindings/browser.xml:412:11
+Feb 20, 2016 21:45:06.87 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3888:13
+Feb 20, 2016 21:45:06.92 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:06.92 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:06.92 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:06.92 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:06.92 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:06.93 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:06.93 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:06.93 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:07.19 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:07.19 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:07.19 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:07.19 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:07.19 @chrome://browser/content/content.js:63:5
+Feb 20, 2016 21:45:07.19 addTab@chrome://browser/content/tabbrowser.xml:1809:15
+Feb 20, 2016 21:45:07.19 ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2402:1
+Feb 20, 2016 21:45:07.19 ssi_onLoad@resource:///modules/sessionstore/SessionStore.jsm:836:11
+Feb 20, 2016 21:45:07.19 SessionStoreInternal.onBeforeBrowserWindowShown/<@resource:///modules/sessionstore/SessionStore.jsm:1002:9
+Feb 20, 2016 21:45:07.19 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Feb 20, 2016 21:45:07.19 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Feb 20, 2016 21:45:07.19 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Feb 20, 2016 21:45:07.22 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:07.22 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:07.22 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:07.22 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:07.25 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:07.25 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:07.25 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:07.25 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:07.25 @chrome://browser/content/content.js:63:5
+Feb 20, 2016 21:45:07.25 _createPreloadBrowser@chrome://browser/content/tabbrowser.xml:1619:13
+Feb 20, 2016 21:45:07.25 _handleNewTab@chrome://browser/content/tabbrowser.xml:4848:11
+Feb 20, 2016 21:45:07.25 addTab/<@chrome://browser/content/tabbrowser.xml:1761:17
+Feb 20, 2016 21:45:07.26 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:07.26 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:07.26 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:07.26 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:12.22 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Feb 20, 2016 21:45:12.22 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Feb 20, 2016 21:45:12.22 pbs<@resource://unity/observer.js:38:71
+Feb 20, 2016 21:45:12.22 Observer.prototype.observe@resource://unity/observer.js:77:24
+Feb 20, 2016 21:45:12.22 get_contentWindow@chrome://global/content/bindings/browser.xml:428:54
+Feb 20, 2016 21:45:12.22 get_securityUI@chrome://global/content/bindings/browser.xml:674:17
+Feb 20, 2016 21:45:12.22 browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:798:17
+Feb 20, 2016 21:45:12.22 SelfSupportBackendInternal._makeHiddenBrowser/<@resource:///modules/SelfSupportBackend.jsm:192:7
+Feb 20, 2016 21:45:15.68 1455975915684	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4451:9 < shutdownObserver@XPIProvider.jsm:2192:13
