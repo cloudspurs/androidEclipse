@@ -1,23 +1,23 @@
 @CHARSET "UTF-8";
 
-.padding-body {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #f5f5f5;
+html, body {
+	height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto;
+height: 100%;
+margin: 0 auto -121px;
 }
 
-.h-div {
-	height: 460px;
+.margin-default {
+	margin: 10px auto;
 }
 
 .form-center {
-	max-width: 300px;
+	max-width: 350px;
 	margin: 0px auto 0px;
 	padding: 36px 6px 8px 6px;
-}
-
-.form-center input[type="file"] {
-	margin-bottom: 10px;
 }
 
 .form-signin {
@@ -40,15 +40,10 @@
 }
 
 .form-signin input[type="text"],
+.form-signin input[type="file"],
 .form-signin input[type="password"] {
   font-size: 16px;
   height: auto;
   margin-bottom: 15px;
   padding: 7px 9px;
-}
-
-.list {
-	max-width: 300px;
-	margin: 0px auto 0px;
-	padding: 8px 6px 8px 6px;
 }

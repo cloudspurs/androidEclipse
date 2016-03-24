@@ -14,8 +14,9 @@
 <link href="assets/css/cloud.css" rel="stylesheet">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
-<body data-spy="scroll" data-target=".bs-docs-sidebar"> 
-    <div class="navbar navbar-fixed-top">
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+	<div class="wrapper">
+    <div class="navbar">
     <div class="navbar-inner">
     <div class="container">
         <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
@@ -44,16 +45,20 @@
             <li><a href="#tab1" data-toggle="tab">Resource Leak</a></li>
         </ul>
         <div class="tab-content">
-            <div id="tab0" class="active tab-pane h-div">
-            <!-- 文件上传表单 -->
-	            <form action="Upload" method="post" enctype="multipart/form-data">
-	            	<input type="file" name="upload">
+            <div id="tab0" class="active tab-pane">
+            	<!-- 文件上传表单 -->
+	            <form action="Upload" method="post" enctype="multipart/form-data" class="form-center">
+	            	<div class="text-center">
+	            	<input type="file" name="upload" class="filestyle" data-buttonText="选择文件" data-buttonName="btn-success" data-icon="false">
 	            	<s:fielderror></s:fielderror>
-	            	<button type="submit">上传</button>
-	            </form>	
+	            	</div>
+	            	<div class="text-center margin-default">
+	            		<button type="submit" class="btn btn-success">上传</button>
+	            	</div>
+	            </form>
             </div>
             
-            <div id="tab1" class="tab-pane h-div">
+            <div id="tab1" class="tab-pane">
             <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span4 text-center">
@@ -70,8 +75,9 @@
             </div>
         </div>
     </div>
+    </div>
    
-    <footer class="footer"> 
+    <footer class="footer sssss"> 
     <div class="container">
         <p>ISCAS · Android APK Static Analysis</p>
         <ul class="footer-links">
@@ -81,9 +87,10 @@
         </ul>
     </div>
     </footer>
-<script src="assets/js/jquery.js"></script> 
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/holder/holder.js"></script>
-<script src="assets/js/application.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script> 
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/holder/holder.js"></script>
+<script type="text/javascript" src="assets/js/application.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-filestyle.js"></script>
 </body>
 </html>

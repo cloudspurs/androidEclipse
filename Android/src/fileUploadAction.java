@@ -57,8 +57,7 @@ public class fileUploadAction extends ActionSupport {
 		}
 		
 		// 新建上传后的文件做为输出流，接收上传文件
-		FileOutputStream fos = new FileOutputStream(getSavePath()
-			+ "/" + getUploadFileName());
+		FileOutputStream fos = new FileOutputStream("/home/mqg/android/" + getUploadFileName());
 		// 把上传文件作为输入流
 		FileInputStream fis = new FileInputStream(getUpload());
 		// 设置缓冲
@@ -71,7 +70,7 @@ public class fileUploadAction extends ActionSupport {
 		fos.close();
 		fis.close();
 		
-		
+/*
 		String command ="scp " + getUploadFileName() +" root@121.42.139.144:/root/cloud/java";
 		String cmd[] = {"/bin/sh", "-c", command};
 		File dir = new File(getSavePath());
@@ -158,7 +157,7 @@ public class fileUploadAction extends ActionSupport {
         } catch (EmailException e) {    
             e.printStackTrace();    
         }
-		
+*/		
 		return "success";	
 	}
 }

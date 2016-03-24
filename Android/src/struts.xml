@@ -58,7 +58,7 @@
         	<!-- 配置系统默认的拦截器 -->
         	<interceptor-ref name="defaultStack"/>
         	<!-- 配置savePath -->
-        	<param name="savePath">/apks</param>
+        	
         	<!-- 配置结果 -->
         	<result name="success">/WEB-INF/jsp/fileUploadPage.jsp</result>
         	<result name="input">/WEB-INF/jsp/homePage.jsp</result>
