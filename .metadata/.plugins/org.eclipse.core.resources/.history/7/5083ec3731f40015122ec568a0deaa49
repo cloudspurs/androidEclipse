@@ -79,7 +79,7 @@ public class server {
 	}
 	
 	public static void cmd(String file, String directory) {
-		String command = "./Relda2.py -r /home/mengqg/android/reldaResult -s /home/mengqg/android/relda/" + file;
+		String command = "./Relda2.py -r /home/mengqg/android/reldaResult -s ../relda/" + file;
 		String cmd[] = {"/bin/sh", "-c", command};
 		File dir = new File(directory);
 		

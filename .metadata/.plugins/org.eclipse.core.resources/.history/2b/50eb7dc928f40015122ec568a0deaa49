@@ -59,7 +59,7 @@ private final static String relda = "/home/mqg/android/relda";
 					WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
 	        		Path filename = watchEventPath.context();
 	        		
-	        		cmd(filename.toString(), relda);
+	        		cmd(filename.toString(), path.toString());
 	    		}
 	    		
 	    		@SuppressWarnings("unchecked")
