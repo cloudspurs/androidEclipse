@@ -15,7 +15,7 @@ import java.nio.file.WatchService;
 import java.nio.file.StandardWatchEventKinds; 
 public class server {
 
-	private final static String relda= "/home/mqg/android/relda";
+	private final static String relda = "/home/mqg/android/relda";
 	
 	public static void main(String[] args) {	     
 		 
@@ -49,9 +49,14 @@ public class server {
 	    		if (kind == StandardWatchEventKinds.ENTRY_CREATE) {
 	    			@SuppressWarnings("unchecked")
 					WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
-	        		Path fileName = watchEventPath.context();
+	        		Path filename = watchEventPath.context();
 	        		
-	        		cmd(fileName.toString(), path.toString());
+	        		cmd(filename.toString(), path.toString());
+	        		
+	        		String result = filename.toString().substring(0, filename.toString().length() - 5);
+	        		result = result + ".class";
+	        		
+	        		scp(result, relda);
 	        		
 	    		}
 	    		
@@ -73,6 +78,33 @@ public class server {
 	
 	public static void cmd(String file, String directory) {
 		String command = "javac " + file;
+		String cmd[] = {"/bin/sh", "-c", command};
+		File dir = new File(directory);
+		
+		try {
+			Runtime runtime = Runtime.getRuntime();
+			Process process = runtime.exec(cmd, null, dir);
+			// 取得命令结果的输出流  
+		    InputStream is = process.getInputStream();  
+		    // 用一个读输出流类去读  
+		    InputStreamReader isr = new InputStreamReader(is);  
+		    // 用缓冲器读行  
+		    BufferedReader br = new BufferedReader(isr);  
+		    String line = null;  
+		    while ((line = br.readLine()) != null) {  
+		        System.out.println(line);  
+		    }  
+		    is.close();  
+		    isr.close();  
+		    br.close();  
+		} catch (IOException e) {  
+		    e.printStackTrace();  
+		}
+	}
+	
+	public static void scp(String file, String directory) {
+		String command = "scp " + file + " mqg@121.42.139.144:/home/mqg/android/reldaResult";
+		
 		String cmd[] = {"/bin/sh", "-c", command};
 		File dir = new File(directory);
 		
