@@ -1,10 +1,6 @@
 package client;
 
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -16,9 +12,14 @@ import java.nio.file.WatchEvent.Kind;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.EmailAttachment;
+import org.apache.commons.mail.EmailException;
+import org.apache.commons.mail.MultiPartEmail;
+
 public class watchReldaResult extends Thread {
 	
-private final static String reldaResult = "/home/mqg/android/reldaResult";
+	private final static String reldaResult = "/home/mqg/android/reldaResult/";
 	
 	public void run() {
 		
@@ -51,15 +52,45 @@ private final static String reldaResult = "/home/mqg/android/reldaResult";
 	    			continue;
 	    		}
 	    		
+	    		// 检测到新文件发送结果到用户邮箱
 	    		if (kind == StandardWatchEventKinds.ENTRY_CREATE) {
 	    			// 该批注的作用是给编译器一条指令，告诉它对被批注的代码元素内部的某些警告保持静默
 	    			// unchecked: 执行了未检查的转换时的警告，例如当使用集合时没有用泛型 (Generics) 来指定集合保存的类型
 	    			@SuppressWarnings({"unchecked"})
 	    			// get the filename of the event
 					WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
-	        		Path fileName = watchEventPath.context();
+	        		Path filename = watchEventPath.context();
 	        		
-	        		cmd(fileName.toString(), path.toString());
+	        		// 发送结果
+	        		MultiPartEmail email = new MultiPartEmail();
+	        		//是否TLS校验，，某些邮箱需要TLS安全校验，同理有SSL校验
+	        		//email.setTLS(true);   
+	        		//email.setSSL(true); 
+	        	    email.setDebug(true);	// 打印调试信息
+	        	    // 设置SMTP服务器地址
+	        	    email.setHostName("smtp.163.com");
+	        	    // 设置账户密码
+	        	    email.setAuthenticator(new DefaultAuthenticator("18612481825@163.com", "qydg45683968"));  
+	        	    try {
+	        	    	// 新建附件
+	        	    	EmailAttachment attachment = new EmailAttachment();
+	        	    	attachment.setPath(reldaResult + filename.toString());  
+	        	    	attachment.setDisposition(EmailAttachment.ATTACHMENT);  
+	        	    	attachment.setDescription(filename.toString());  
+	        	    	attachment.setName(filename.toString());
+	        	    	email.setFrom("18612481825@163.com"); 	// 发送方 
+	        	    	email.addTo("443051430@qq.com"); 		// 接收方  
+	        	    	//email.addCc("443051430@qq.com"); 		// 抄送方  
+	        	    	//email.addBcc("443051430@qq.com"); 	// 秘密抄送方  
+	        	    	email.setCharset("utf-8");  
+	        	    	email.setSubject("result"); 			// 标题  
+	        	    	email.setMsg("result");
+	        	    	email.attach(attachment);
+	        	    	email.send();  
+	        	    	System.out.println("发送成功");  
+	        	    } catch (EmailException e) {    
+	        	        e.printStackTrace();    
+	        	    }	
 	    		}
 	    		
 	    		@SuppressWarnings("unchecked")
@@ -70,7 +101,7 @@ private final static String reldaResult = "/home/mqg/android/reldaResult";
 	    		SimpleDateFormat now = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	    		
 	    		System.out.printf("event: %s    filename: %s    time: %s%n"  
-	                    ,kind.name(), fileName, now.format(new Date())); 
+	                    ,kind.name(), fileName.toString(), now.format(new Date())); 
 	    		
 	    		if (!key.reset()) {
 	    			break;
@@ -79,30 +110,4 @@ private final static String reldaResult = "/home/mqg/android/reldaResult";
 	    }
 	}
 		
-	public static void cmd(String file, String directory) {
-		String command = "javac " + file;
-		String cmd[] = {"/bin/sh", "-c", command};
-		File dir = new File(directory);
-		
-		try {
-			Runtime runtime = Runtime.getRuntime();
-			Process process = runtime.exec(cmd, null, dir);
-			// 取得命令结果的输出流  
-		    InputStream is = process.getInputStream();  
-		    // 用一个读输出流类去读  
-		    InputStreamReader isr = new InputStreamReader(is);  
-		    // 用缓冲器读行  
-		    BufferedReader br = new BufferedReader(isr);  
-		    String line = null;  
-		    while ((line = br.readLine()) != null) {  
-		        System.out.println(line);  
-		    }  
-		    is.close();  
-		    isr.close();  
-		    br.close();  
-		} catch (IOException e) {  
-		    e.printStackTrace();  
-		}
-	}
-
 }

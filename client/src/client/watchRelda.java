@@ -80,7 +80,7 @@ private final static String relda = "/home/mqg/android/relda";
 	}
 		
 	public static void cmd(String file, String directory) {
-		String command = "scp " + file + " root@121.42.139.144:/home/mqg/android/relda";
+		String command = "scp " + file + " mengqg@124.16.137.61:/home/mengqg/android/relda";
 		
 		String cmd[] = {"/bin/sh", "-c", command};
 		File dir = new File(directory);

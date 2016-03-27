@@ -1,0 +1,4 @@
+127.0.0.1 - - [27/Mar/2016:11:21:48 +0800] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [27/Mar/2016:11:21:50 +0800] "GET /Android/ HTTP/1.1" 200 3324
+127.0.0.1 - - [27/Mar/2016:11:21:50 +0800] "GET /Android/assets/css/docs.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2016:11:21:50 +0800] "GET /Android/assets/css/cloud.css HTTP/1.1" 304 -
