@@ -1,0 +1,108 @@
+package client;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+import org.dom4j.Document;
+import org.dom4j.DocumentHelper;
+import org.dom4j.Element;
+import org.dom4j.io.XMLWriter;
+
+public class userInfo {
+	
+	private String email;
+	private String path = "/home/mqg/user.xml";
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	public String getPath() {
+		return path;
+	}
+
+	public void setPath(String path) {
+		this.path = path;
+	}
+	 
+	public void createInfo() {  
+        try {
+        	
+            // 创建Document对象  
+            Document document = DocumentHelper.createDocument();  
+            
+            // 添加根节点users
+            Element rootElement = document.addElement("users");  
+            // 添加根节点信息  
+            rootElement.setText("用户信息");
+            // 添加子节点email
+            Element element = rootElement.addElement("email"); 
+            element.setText(email);
+            
+            // 将document文档写入user.xml文件
+            Writer fileWriter = new FileWriter("/home/mqg/user.xml");  
+            //dom4j提供了专门写入文件的对象XMLWriter  
+            XMLWriter xmlWriter = new XMLWriter(fileWriter);  
+            xmlWriter.write(document);  
+            xmlWriter.flush();  
+            xmlWriter.close();
+            
+            // 将document文档对象直接转换成字符串输出 
+            System.out.println(document.asXML());
+            
+            System.out.println("xml文档添加成功！");  
+            
+        } catch (IOException e) {  
+            e.printStackTrace();  
+        }  
+	} 
+ 
+	public static void main(String[] args) {  
+        userInfo user = new userInfo();  
+        user.createInfo(); 
+	}
+
+	
+
+	
+
+}
+
+/*
+try {  
+    //DocumentHelper提供了创建Document对象的方法  
+    Document document = DocumentHelper.createDocument();  
+    //添加节点信息  
+    Element rootElement = document.addElement("modules");  
+    //这里可以继续添加子节点，也可以指定内容  
+    rootElement.setText("这个是module标签的文本信息");  
+    Element element = rootElement.addElement("module");  
+      
+    Element nameElement = element.addElement("name");  
+    Element valueElement = element.addElement("value");  
+    Element descriptionElement = element.addElement("description");  
+    nameElement.setText("名称");  
+    nameElement.addAttribute("language", "java");//为节点添加属性值  
+    valueElement.setText("值");  
+    valueElement.addAttribute("language", "c#");  
+    descriptionElement.setText("描述");  
+    descriptionElement.addAttribute("language", "sql server");  
+    System.out.println(document.asXML()); //将document文档对象直接转换成字符串输出  
+    Writer fileWriter = new FileWriter("/home/mqg/user.xml");  
+    //dom4j提供了专门写入文件的对象XMLWriter  
+    XMLWriter xmlWriter = new XMLWriter(fileWriter);  
+    xmlWriter.write(document);  
+    xmlWriter.flush();  
+    xmlWriter.close();  
+    System.out.println("xml文档添加成功！");  
+} catch (IOException e) {  
+    e.printStackTrace();  
+}  
+} 
+
+*/

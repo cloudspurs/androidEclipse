@@ -7,4 +7,5 @@ org.eclipse.jdt.core.compiler.compliance=1.7
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.source=1.7
+org.eclipse.jdt.core.userLibrary.dom4j=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/usr/local/lib/dom4j/dom4j-1.6.1.jar"/>\n</userlibrary>\n
 org.eclipse.jdt.core.userLibrary.email=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/usr/local/lib/email/commons-email-1.4.jar"/>\n\t<archive path\="/usr/local/lib/email/mail.jar"/>\n</userlibrary>\n
