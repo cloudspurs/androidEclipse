@@ -4,9 +4,9 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 public class signinAction extends ActionSupport {
 	private static final long serialVersionUID = 1L;
@@ -29,6 +29,7 @@ public class signinAction extends ActionSupport {
 	}
 	
 	public String execute() throws Exception {
+		
 		// 获取Hibernate配置，通过SessionFactory获取Session来开启事物
 		Configuration conf = new Configuration().configure();
 		ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
@@ -39,6 +40,7 @@ public class signinAction extends ActionSupport {
 		
 		// 查询用户信息
 		Query result = sess.createQuery("from Users as u where u.email = :uemail");
+		
 		// 从网页获取用户名
 		result.setParameter("uemail", getEmail());
 		
@@ -59,10 +61,13 @@ public class signinAction extends ActionSupport {
 		Users user = (Users)list;
 		
 		// 判断密码是否正确
-		if (user.getPassword().equals(getPassword()))
+		if (user.getPassword().equals(getPassword())) {
+			
+			ActionContext.getContext().getSession().put("emailSigned",  user.getEmail());
 			return "success";
-		else
+		}
+		else {
 			return "error";
-				
+		}				
 	}
 }

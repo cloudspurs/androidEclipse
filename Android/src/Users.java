@@ -26,7 +26,7 @@ public class Users {
 	public void setEamil(String email) {
 		this.email = email;
 	}
-	public String gerEmail() {
+	public String getEmail() {
 		return this.email;
 	}
 	
