@@ -18,7 +18,10 @@ import java.util.Date;
 
 public class watchRelda extends Thread {
 	
-private final static String relda = "/home/mqg/android/relda";
+	// 检测的路径
+	private final static String relda = "/home/mqg/android/relda";
+	// 服务器路径
+	private final static String server = " mengqg@124.16.137.61:/home/mengqg/android/relda";
 	
 	public void run() {
 		
@@ -26,11 +29,11 @@ private final static String relda = "/home/mqg/android/relda";
 		 
 		try {
 			watchPath(path);
+			
 		} catch(IOException | InterruptedException e) {  
 	        System.err.println(e);  
 	    }
 	}
-	
 	
 	public static void watchPath(Path path)throws IOException, InterruptedException {
 		
@@ -59,7 +62,8 @@ private final static String relda = "/home/mqg/android/relda";
 					WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
 	        		Path filename = watchEventPath.context();
 	        		
-	        		cmd(filename.toString(), relda);
+	        		// 将文件传输到计算服务器
+	        		scp(filename.toString(), relda);
 	    		}
 	    		
 	    		@SuppressWarnings("unchecked")
@@ -79,8 +83,9 @@ private final static String relda = "/home/mqg/android/relda";
 	    }
 	}
 		
-	public static void cmd(String file, String directory) {
-		String command = "scp " + file + " mengqg@124.16.137.61:/home/mengqg/android/relda";
+	public static void scp(String file, String directory) {
+		
+		String command = "scp -r " + file + server;
 		
 		String cmd[] = {"/bin/sh", "-c", command};
 		File dir = new File(directory);
@@ -100,7 +105,8 @@ private final static String relda = "/home/mqg/android/relda";
 		    }  
 		    is.close();  
 		    isr.close();  
-		    br.close();  
+		    br.close();
+		    
 		} catch (IOException e) {  
 		    e.printStackTrace();  
 		}

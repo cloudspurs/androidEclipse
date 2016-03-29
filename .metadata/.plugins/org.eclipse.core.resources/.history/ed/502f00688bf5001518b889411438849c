@@ -1,0 +1,45 @@
+package server;
+
+import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.StandardWatchEventKinds;
+import java.nio.file.WatchEvent;
+import java.nio.file.WatchKey;
+import java.nio.file.WatchService;
+import java.nio.file.WatchEvent.Kind;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class watchFile {
+	public static boolean watchPath(Path path)throws IOException, InterruptedException {
+		
+	    WatchService watcher = FileSystems.getDefault().newWatchService();
+	    
+	    // 设置path路径文件观察服务（新建，修改，删除）
+	    path.register(watcher, StandardWatchEventKinds.ENTRY_CREATE,
+	    		StandardWatchEventKinds.ENTRY_MODIFY,
+	    		StandardWatchEventKinds.ENTRY_DELETE);
+	    
+	    while (true) {
+	    	WatchKey key = watcher.take();
+	    	
+	    	for (WatchEvent<?> event : key.pollEvents()) {
+	    		Kind<?> kind = event.kind();
+	    		
+	    		if (kind == StandardWatchEventKinds.OVERFLOW){
+	    			continue;
+	    		}
+	    		
+	    		if (kind == StandardWatchEventKinds.ENTRY_CREATE) {
+	    			return true;
+	    		}
+	    		
+	    		if (!key.reset()) {
+	    			break;
+	    		}
+	    	}
+	    }
+	}
+	
+}

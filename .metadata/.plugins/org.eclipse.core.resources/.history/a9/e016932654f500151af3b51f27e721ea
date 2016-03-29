@@ -1,0 +1,111 @@
+package client;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardWatchEventKinds;
+import java.nio.file.WatchEvent;
+import java.nio.file.WatchKey;
+import java.nio.file.WatchService;
+import java.nio.file.WatchEvent.Kind;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class watchRelda extends Thread {
+	
+	// 检测的路径
+	private final static String relda = "/home/mqg/android/relda";
+	
+	public void run() {
+		
+		Path path = Paths.get(relda);
+		 
+		try {
+			watchPath(path);
+		} catch(IOException | InterruptedException e) {  
+	        System.err.println(e);  
+	    }
+	}
+	
+	
+	public static void watchPath(Path path)throws IOException, InterruptedException {
+		
+	    WatchService watcher = FileSystems.getDefault().newWatchService();
+	    
+	    // 设置path路径文件观察服务（新建，修改，删除）
+	    path.register(watcher, StandardWatchEventKinds.ENTRY_CREATE,
+	    		StandardWatchEventKinds.ENTRY_MODIFY,
+	    		StandardWatchEventKinds.ENTRY_DELETE);
+	    
+	    while (true) {
+	    	WatchKey key = watcher.take();
+	    	
+	    	for (WatchEvent<?> event : key.pollEvents()) {
+	    		Kind<?> kind = event.kind();
+	    		
+	    		if (kind == StandardWatchEventKinds.OVERFLOW){
+	    			continue;
+	    		}
+	    		
+	    		// 发现新文件，处理文件
+	    		if (kind == StandardWatchEventKinds.ENTRY_CREATE) {
+	    			// 该批注的作用是给编译器一条指令，告诉它对被批注的代码元素内部的某些警告保持静默
+	    			// unchecked: 执行了未检查的转换时的警告，例如当使用集合时没有用泛型 (Generics) 来指定集合保存的类型
+	    			@SuppressWarnings({"unchecked"})
+	    			// get the filename of the event
+					WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
+	        		Path filename = watchEventPath.context();
+	        		
+	        		cmd(filename.toString(), relda);
+	    		}
+	    		
+	    		@SuppressWarnings("unchecked")
+				WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
+	    		Path fileName = watchEventPath.context();
+	    		
+	    		// 设置日期格式
+	    		SimpleDateFormat now = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	    		
+	    		System.out.printf("event: %s    filename: %s    time: %s%n"  
+	                    ,kind.name(), fileName, now.format(new Date())); 
+	    		
+	    		if (!key.reset()) {
+	    			break;
+	    		}
+	    	}
+	    }
+	}
+		
+	public static void cmd(String file, String directory) {
+		String command = "scp " + file + " mengqg@124.16.137.61:/home/mengqg/android/relda";
+		
+		String cmd[] = {"/bin/sh", "-c", command};
+		File dir = new File(directory);
+		
+		try {
+			Runtime runtime = Runtime.getRuntime();
+			Process process = runtime.exec(cmd, null, dir);
+			// 取得命令结果的输出流  
+		    InputStream is = process.getInputStream();  
+		    // 用一个读输出流类去读  
+		    InputStreamReader isr = new InputStreamReader(is);  
+		    // 用缓冲器读行  
+		    BufferedReader br = new BufferedReader(isr);  
+		    String line = null;  
+		    while ((line = br.readLine()) != null) {  
+		        System.out.println(line);  
+		    }  
+		    is.close();  
+		    isr.close();  
+		    br.close();  
+		} catch (IOException e) {  
+		    e.printStackTrace();  
+		}
+	}
+
+}

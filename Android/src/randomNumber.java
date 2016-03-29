@@ -1,4 +1,5 @@
 import java.util.Random;
+
 public class randomNumber {
 	public static final String allChar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	

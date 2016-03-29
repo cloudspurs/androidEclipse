@@ -61,6 +61,10 @@ public class watchReldaResult extends Thread {
 					WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
 	        		Path filename = watchEventPath.context();
 	        		
+	        		// 读取用户信息，准备发送邮件
+	        		userInfo userinfo = new userInfo();
+	        		userinfo = xmlAction.readXml(reldaResult + filename.toString() + "/user.xml");
+	        		
 	        		// 发送结果
 	        		MultiPartEmail email = new MultiPartEmail();
 	        		//是否TLS校验，，某些邮箱需要TLS安全校验，同理有SSL校验
@@ -74,12 +78,12 @@ public class watchReldaResult extends Thread {
 	        	    try {
 	        	    	// 新建附件
 	        	    	EmailAttachment attachment = new EmailAttachment();
-	        	    	attachment.setPath(reldaResult + filename.toString());  
+	        	    	attachment.setPath(reldaResult + filename.toString() + "/");  
 	        	    	attachment.setDisposition(EmailAttachment.ATTACHMENT);  
-	        	    	attachment.setDescription(filename.toString());  
-	        	    	attachment.setName(filename.toString());
+	        	    	attachment.setDescription("user.xml");  
+	        	    	attachment.setName("user.xml");
 	        	    	email.setFrom("18612481825@163.com"); 	// 发送方 
-	        	    	email.addTo("443051430@qq.com"); 		// 接收方  
+	        	    	email.addTo(userinfo.getEmail()); 		// 接收方  
 	        	    	//email.addCc("443051430@qq.com"); 		// 抄送方  
 	        	    	//email.addBcc("443051430@qq.com"); 	// 秘密抄送方  
 	        	    	email.setCharset("utf-8");  

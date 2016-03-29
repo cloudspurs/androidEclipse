@@ -1,0 +1,113 @@
+package client;
+
+import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardWatchEventKinds;
+import java.nio.file.WatchEvent;
+import java.nio.file.WatchKey;
+import java.nio.file.WatchService;
+import java.nio.file.WatchEvent.Kind;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.EmailAttachment;
+import org.apache.commons.mail.EmailException;
+import org.apache.commons.mail.MultiPartEmail;
+
+public class watchReldaResult extends Thread {
+	
+	private final static String reldaResult = "/home/mqg/android/reldaResult/";
+	
+	public void run() {
+		
+		Path path = Paths.get(reldaResult);
+		 
+		try {
+			watchPath(path);
+		} catch(IOException | InterruptedException e) {  
+	        System.err.println(e);  
+	    }
+	}
+	
+	
+	public static void watchPath(Path path)throws IOException, InterruptedException {
+		
+	    WatchService watcher = FileSystems.getDefault().newWatchService();
+	    
+	    // 设置path路径文件观察服务（新建，修改，删除）
+	    path.register(watcher, StandardWatchEventKinds.ENTRY_CREATE,
+	    		StandardWatchEventKinds.ENTRY_MODIFY,
+	    		StandardWatchEventKinds.ENTRY_DELETE);
+	    
+	    while (true) {
+	    	WatchKey key = watcher.take();
+	    	
+	    	for (WatchEvent<?> event : key.pollEvents()) {
+	    		Kind<?> kind = event.kind();
+	    		
+	    		if (kind == StandardWatchEventKinds.OVERFLOW){
+	    			continue;
+	    		}
+	    		
+	    		// 检测到新文件发送结果到用户邮箱
+	    		if (kind == StandardWatchEventKinds.ENTRY_CREATE) {
+	    			// 该批注的作用是给编译器一条指令，告诉它对被批注的代码元素内部的某些警告保持静默
+	    			// unchecked: 执行了未检查的转换时的警告，例如当使用集合时没有用泛型 (Generics) 来指定集合保存的类型
+	    			@SuppressWarnings({"unchecked"})
+	    			// get the filename of the event
+					WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
+	        		Path filename = watchEventPath.context();
+	        		
+	        		// 发送结果
+	        		MultiPartEmail email = new MultiPartEmail();
+	        		//是否TLS校验，，某些邮箱需要TLS安全校验，同理有SSL校验
+	        		//email.setTLS(true);   
+	        		//email.setSSL(true); 
+	        	    email.setDebug(true);	// 打印调试信息
+	        	    // 设置SMTP服务器地址
+	        	    email.setHostName("smtp.163.com");
+	        	    // 设置账户密码
+	        	    email.setAuthenticator(new DefaultAuthenticator("18612481825@163.com", "qydg45683968"));  
+	        	    try {
+	        	    	// 新建附件
+	        	    	EmailAttachment attachment = new EmailAttachment();
+	        	    	attachment.setPath(reldaResult + filename.toString());  
+	        	    	attachment.setDisposition(EmailAttachment.ATTACHMENT);  
+	        	    	attachment.setDescription(filename.toString());  
+	        	    	attachment.setName(filename.toString());
+	        	    	email.setFrom("18612481825@163.com"); 	// 发送方 
+	        	    	email.addTo("443051430@qq.com"); 		// 接收方  
+	        	    	//email.addCc("443051430@qq.com"); 		// 抄送方  
+	        	    	//email.addBcc("443051430@qq.com"); 	// 秘密抄送方  
+	        	    	email.setCharset("utf-8");  
+	        	    	email.setSubject("result"); 			// 标题  
+	        	    	email.setMsg("result");
+	        	    	email.attach(attachment);
+	        	    	email.send();  
+	        	    	System.out.println("发送成功");  
+	        	    } catch (EmailException e) {    
+	        	        e.printStackTrace();    
+	        	    }	
+	    		}
+	    		
+	    		@SuppressWarnings("unchecked")
+				WatchEvent<Path> watchEventPath = (WatchEvent<Path>)event;
+	    		Path fileName = watchEventPath.context();
+	    		
+	    		// 设置日期格式
+	    		SimpleDateFormat now = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	    		
+	    		System.out.printf("event: %s    filename: %s    time: %s%n"  
+	                    ,kind.name(), fileName.toString(), now.format(new Date())); 
+	    		
+	    		if (!key.reset()) {
+	    			break;
+	    		}
+	    	}
+	    }
+	}
+		
+}

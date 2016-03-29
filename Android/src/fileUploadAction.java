@@ -8,6 +8,7 @@ import com.opensymphony.xwork2.ActionSupport;
 public class fileUploadAction extends ActionSupport {
 	
 	private static final long serialVersionUID = 1L;
+	
 	private static final String relda = "/home/mqg/android/relda/";
 	private static final String tail = "/user.xml";
 	
@@ -58,18 +59,22 @@ public class fileUploadAction extends ActionSupport {
 		String folder = uf.getFolder();
 		String path = relda + folder;
 		
-		File pathXml = new File(path);
-		pathXml.mkdir();
+		File pathUpload = new File(path);
+		if (!pathUpload.exists()) {
+			pathUpload.mkdir();
+		}
 		
 		// 生成用户信息XML文件
 		File xmlFile = new File(path + tail);
-		xmlFile.createNewFile();
+		if (!xmlFile.exists()) {
+			xmlFile.createNewFile();
+		}
 		
 		// 获取当前的登录邮箱
 		String emailSigned = (String)ActionContext.getContext().getSession().get("emailSigned");
 		
 		// 新建用户信息
-		userInfo userinfo = new userInfo(emailSigned);
+		userInfo userinfo = new userInfo(emailSigned, uploadFileName);
 		
 		xmlAction.createXml(userinfo, xmlFile.toString());
 		
