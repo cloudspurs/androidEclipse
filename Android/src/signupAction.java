@@ -33,9 +33,9 @@ public class signupAction extends ActionSupport {
 		String password = (String)ActionContext.getContext().getSession().get("password");
 		
 		// 新建用户
-		Users user = new Users();
-		user.setEamil(email);
-		user.setPassword(password);
+		Users root = new Users();
+		root.setEamil(email);
+		root.setPassword(password);
 		
 		// 获取Hibernate配置，通过SessionFactory获取Session来开启事物
 		Configuration conf = new Configuration().configure();
@@ -46,7 +46,7 @@ public class signupAction extends ActionSupport {
 		Transaction tx = sess.beginTransaction();
 		
 		// 将user存入数据库
-		sess.save(user);
+		sess.save(root);
 		tx.commit();
 		sess.close();
 		sf.close();

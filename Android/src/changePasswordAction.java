@@ -41,9 +41,9 @@ public class changePasswordAction extends ActionSupport {
 		String email;
 		email = (String)ActionContext.getContext().getSession().get("email");
 		
-		Users user = new Users();
-		user.setEamil(email);
-		user.setPassword(password);
+		Users root = new Users();
+		root.setEamil(email);
+		root.setPassword(password);
 		
 		// 获取数据库配置，生成Session
 		Configuration conf = new Configuration().configure();
@@ -59,10 +59,10 @@ public class changePasswordAction extends ActionSupport {
 		
 		Users u = (Users)result.list().get(0);
 		
-		user.setId(u.getId());
+		root.setId(u.getId());
 		
 		// 更新数据库用户信息
-		sess.merge(user);
+		sess.merge(root);
 		tx.commit();
 		
 		sess.close();

@@ -58,12 +58,12 @@ public class signinAction extends ActionSupport {
 		sf.close();
 		
 		// 转换为Users类型
-		Users user = (Users)list;
+		Users root = (Users)list;
 		
 		// 判断密码是否正确
-		if (user.getPassword().equals(getPassword())) {
+		if (root.getPassword().equals(getPassword())) {
 			
-			ActionContext.getContext().getSession().put("emailSigned",  user.getEmail());
+			ActionContext.getContext().getSession().put("emailSigned",  root.getEmail());
 			return "success";
 		}
 		else {

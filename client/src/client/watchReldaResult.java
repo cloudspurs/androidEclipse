@@ -1,5 +1,6 @@
 package client;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
@@ -20,6 +21,7 @@ import org.apache.commons.mail.MultiPartEmail;
 public class watchReldaResult extends Thread {
 	
 	private final static String reldaResult = "/home/mqg/android/reldaResult/";
+	private final static String tail = "/user.xml";
 	
 	public void run() {
 		
@@ -63,8 +65,18 @@ public class watchReldaResult extends Thread {
 	        		
 	        		// 读取用户信息，准备发送邮件
 	        		userInfo userinfo = new userInfo();
-	        		userinfo = xmlAction.readXml(reldaResult + filename.toString() + "/user.xml");
 	        		
+	        		boolean b = true;
+	        		File f = new File(reldaResult + filename.toString() + tail);
+	        		
+	        		while (b) {
+	        			if (f.exists()) {
+	        				b = false;
+	        			}
+	        		}
+	        			
+	        		userinfo = xmlAction.readXml(reldaResult + filename.toString() + tail);
+	    
 	        		// 发送结果
 	        		MultiPartEmail email = new MultiPartEmail();
 	        		//是否TLS校验，，某些邮箱需要TLS安全校验，同理有SSL校验
@@ -78,7 +90,7 @@ public class watchReldaResult extends Thread {
 	        	    try {
 	        	    	// 新建附件
 	        	    	EmailAttachment attachment = new EmailAttachment();
-	        	    	attachment.setPath(reldaResult + filename.toString() + "/");  
+	        	    	attachment.setPath(reldaResult + filename.toString() + tail);  
 	        	    	attachment.setDisposition(EmailAttachment.ATTACHMENT);  
 	        	    	attachment.setDescription("user.xml");  
 	        	    	attachment.setName("user.xml");
