@@ -1,10 +1,11 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
+
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
+import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
@@ -29,17 +30,19 @@ public class xmlAction {
             filename.setText(userinfo.getFile());
             
             // 将document文档写入user.xml文件
-            Writer fileWriter = new FileWriter(file);  
+            OutputFormat fileWriter = OutputFormat.createPrettyPrint();
+            fileWriter.setEncoding("UTF-8");
+            
             //dom4j提供了专门写入文件的对象XMLWriter  
-            XMLWriter xmlWriter = new XMLWriter(fileWriter);
+            XMLWriter xmlWriter = new XMLWriter(new FileWriter(new File(file)), fileWriter);
             xmlWriter.write(document);  
             xmlWriter.flush();  
             xmlWriter.close();
             
             // 将document文档对象直接转换成字符串输出 
-            System.out.println(document.asXML());
+            //System.out.println(document.asXML());
             
-            System.out.println("xml文档添加成功！");  
+            //System.out.println("xml文档添加成功！");  
             
         } catch (IOException e) {  
             e.printStackTrace();  

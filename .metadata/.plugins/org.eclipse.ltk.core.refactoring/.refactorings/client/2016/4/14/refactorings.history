@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;xmlAction.java&apos; to &apos;server/src/server&apos;&#x0A;- Original project: &apos;client&apos;&#x0A;- Destination element: &apos;server/src/server&apos;&#x0A;- Original element: &apos;client.xmlAction.java&apos;" description="Copy compilation unit" destination="=server/src&lt;server" element1="/src&lt;client{xmlAction.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1459587238440" units="1" version="1.0"/>
+</session>

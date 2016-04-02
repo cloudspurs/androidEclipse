@@ -65,47 +65,66 @@ public class watchRelda extends Thread {
 	        		// 设置日期格式
 		    		SimpleDateFormat now = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		    		
+		    		// 在控制台打印文件夹印创建事件
 		    		System.out.printf("event: %s    filename: %s    time: %s%n"  
 		                    ,kind.name(), filename, now.format(new Date())); 
 		    		
 	        		// 新建用户信息
 	        		userInfo userinfo = new userInfo();
 	        		
-	        		System.out.println(relda + filename);
+	        		// 在控制台打印新建的文件夹
+	        		System.out.println(relda + filename.toString());
 	        		
 	        		boolean b = true;
+	        		
 	        		File f = new File(relda + filename.toString() + tail);
 	        		
+	        		// 在控制台打印user.xml
+	        		System.out.println(f.toString());
+	        		
 	        		while (b) {
+	        			System.out.println("while ");
+	        			Thread.sleep(1000);
 	        			if (f.exists()) {
+	        				System.out.println("ifif");
 	        				b = false;
 	        			}
 	        		}
 	        		
 	        		// 读取用户信息
 	        		userinfo = xmlAction.readXml(relda + filename + tail);
-	        			 
+	        		
+	        		System.out.println("读取完xml文件");
+	        		
 	        		System.out.println(userinfo.getFile());
+	        		System.out.println("读取完userinfo.getfile()");
 	        		
 	        		boolean bb = true;
 	        		File ff = new File(relda + filename.toString() + "/" + userinfo.getFile());
 	        		
 	        		while (bb) {
+	        			System.out.println("while ");
+	        			Thread.sleep(1000);
 	        			if (ff.exists()) {
+	        				System.out.println("ifif");
 	        				bb = false;
 	        			}
 	        		}
 	        		
+	        		// 在控制台打印apk文件
+	        		System.out.println(userinfo.getFile());
+	        		
 	        		// 分析apk
+	        		System.out.println("relda开始分析文件");
 	        		relda(relda + filename.toString() + "/" + userinfo.getFile(),
 	        				relda + filename.toString(), Relda2);
-	        		
-	        		System.out.println(relda + filename.toString() + "/" + userinfo.getFile());
+	        		System.out.println("relda分析完文件");
 	        		
 	        		// 返回文件夹
+	        		System.out.println("开始传输分析报告");
 	        		scp(filename.toString(), relda);
+	        		System.out.println("分析报告传输完毕");
 	        		
-	        		System.out.println("end");
 
 	    		}
 	    		    		
@@ -144,7 +163,7 @@ public class watchRelda extends Thread {
 		}
 	}
 		
-	public static void scp(String file, String directory) {
+	public static void scp(String file, String directory) throws InterruptedException {
 		
 		String command = "scp -r " + file + client;
 		
@@ -154,6 +173,7 @@ public class watchRelda extends Thread {
 		try {
 			Runtime runtime = Runtime.getRuntime();
 			Process process = runtime.exec(cmd, null, dir);
+			process.waitFor();
 			// 取得命令结果的输出流  
 		    InputStream is = process.getInputStream();  
 		    // 用一个读输出流类去读  

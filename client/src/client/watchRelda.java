@@ -83,7 +83,7 @@ public class watchRelda extends Thread {
 	    }
 	}
 		
-	public static void scp(String file, String directory) {
+	public static void scp(String file, String directory) throws InterruptedException {
 		
 		String command = "scp -r " + file + server;
 		
@@ -93,6 +93,7 @@ public class watchRelda extends Thread {
 		try {
 			Runtime runtime = Runtime.getRuntime();
 			Process process = runtime.exec(cmd, null, dir);
+			process.waitFor();
 			// 取得命令结果的输出流  
 		    InputStream is = process.getInputStream();  
 		    // 用一个读输出流类去读  

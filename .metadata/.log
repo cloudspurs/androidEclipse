@@ -6873,3 +6873,1881 @@ Binding(ALT+CTRL+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2016-04-02 10:16:59.493 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 10:17:06.751
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 10:17:06.751
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ff892af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@686637c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2016-04-02 10:36:47.160 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 10:36:53.482
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 10:36:53.482
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b275945,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3455cef0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2016-04-02 10:47:46.078 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.310
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/name.schedenig.eclipse.grepconsole_3.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.310
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.jjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.311
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.jade.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.311
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jumperz.app.MMonjaDB_1.0.16.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.311
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/gitaddon.feature_1.0.0.20140303-0606.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.311
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.eclipsesource.jshint.feature_0.9.10.20141011-1730.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.312
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.vtst.ow.eclipse.less.feature_1.0.19.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.312
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.mongodb.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.312
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.xored.glance_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.312
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.pdetools.feature_1.2.6.I20150812-105126.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.313
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.sweetlemonade.eclipse.json.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.313
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.coffee.feature_1.6.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.313
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.sourceforge.shelled_2.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.314
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.express.feature_3.2.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.314
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.314
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jdt.spelling.feature_1.0.0.v20141130-2055.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.314
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.satyagraha.gfm.viewer.feature_1.9.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.315
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/PracticallyMacroFeature_0.4.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.315
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jsonedit-feature_0.9.7.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.315
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.phantomjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.315
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/OpenClosedProjectsFeature_1.0.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.316
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.mihai-nita.ansicon_1.3.1.201508091828.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.316
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.maven.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.316
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.dadacoalition.yedit_0.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.316
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/zipeditor_1.1.2.201409260755.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.317
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.eclipse_icons.editor.feature_2.4.1.201311032200.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.317
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.sdk_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.317
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.debug_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.317
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipsecolortheme.feature_1.0.0.201410260308.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.318
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.318
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.studio.included.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.318
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/de.bastiankrol.startexplorer.feature_1.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.318
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.nodejs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.319
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.319
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.eclipse.themes.feature_2.2.0.I20141210-114528.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.319
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.swtend.feature_2.2.5.I20140918-144458.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.319
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.google.restclient.tool.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.320
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.vertx.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.320
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.pluginslist.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.320
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/io.emmet.eclipse_1.0.0.201401132323.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.320
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/SelectionExplorerFeature_1.0.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.321
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/pm.eclipse.editbox.feature_0.70.0.201508180438.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.321
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipseuitheme.themes.feature_0.8.9.201404052318.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.321
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/it.unibz.instasearch.feature.indigo_1.5.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.321
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/markdown.editor.feature_1.2.0.201501260515.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.322
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/EclipseRunnerFeature_1.3.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.488
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/name.schedenig.eclipse.grepconsole_3.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.488
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.jjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.488
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.jade.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.489
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jumperz.app.MMonjaDB_1.0.16.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.489
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/gitaddon.feature_1.0.0.20140303-0606.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.489
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.eclipsesource.jshint.feature_0.9.10.20141011-1730.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.489
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.vtst.ow.eclipse.less.feature_1.0.19.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.490
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.mongodb.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.490
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.xored.glance_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.490
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.pdetools.feature_1.2.6.I20150812-105126.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.490
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.sweetlemonade.eclipse.json.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.490
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.coffee.feature_1.6.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.491
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.sourceforge.shelled_2.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.491
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.express.feature_3.2.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.491
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.491
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jdt.spelling.feature_1.0.0.v20141130-2055.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.492
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.satyagraha.gfm.viewer.feature_1.9.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.492
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/PracticallyMacroFeature_0.4.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.492
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jsonedit-feature_0.9.7.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.492
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.phantomjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.492
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/OpenClosedProjectsFeature_1.0.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.493
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.mihai-nita.ansicon_1.3.1.201508091828.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.493
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.maven.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.493
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.dadacoalition.yedit_0.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.493
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/zipeditor_1.1.2.201409260755.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.493
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.eclipse_icons.editor.feature_2.4.1.201311032200.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.494
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.sdk_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.494
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.debug_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.494
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipsecolortheme.feature_1.0.0.201410260308.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.494
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.495
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.studio.included.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.495
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/de.bastiankrol.startexplorer.feature_1.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.495
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.nodejs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.495
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.495
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.eclipse.themes.feature_2.2.0.I20141210-114528.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.496
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.swtend.feature_2.2.5.I20140918-144458.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.496
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.google.restclient.tool.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.496
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.vertx.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.496
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.pluginslist.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.496
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/io.emmet.eclipse_1.0.0.201401132323.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.497
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/SelectionExplorerFeature_1.0.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.497
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/pm.eclipse.editbox.feature_0.70.0.201508180438.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.497
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipseuitheme.themes.feature_0.8.9.201404052318.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.497
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/it.unibz.instasearch.feature.indigo_1.5.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.498
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/markdown.editor.feature_1.2.0.201501260515.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 10:47:49.498
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/EclipseRunnerFeature_1.3.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 10:47:49.520
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/mqg/eclipse/myPlugins/maven/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-02 10:47:49.521
+!MESSAGE No repository found at file:/home/mqg/eclipse/myPlugins/maven/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 10:47:49.525
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/mqg/eclipse/myPlugins/maven/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:143)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2016-04-02 10:47:49.525
+!MESSAGE No repository found at file:/home/mqg/eclipse/myPlugins/maven/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 10:47:49.551
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-02 10:47:49.551
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 10:47:49.555
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:143)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2016-04-02 10:47:49.555
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 10:47:49.559
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-02 10:47:49.560
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 10:47:49.563
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:143)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2016-04-02 10:47:49.563
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 10:48:02.442
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 10:48:02.442
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5532ac4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71ce6094,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-04-02 10:48:10.987
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.823
+!MESSAGE RelativityFileSystemStructureProvider.cllectFiles() called. file count=9
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.851
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/routes/index.js
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.854
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/routes/users.js
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.855
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/views/index.jade
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.857
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/views/layout.jade
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.858
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/views/error.jade
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.859
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/bin/www
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.859
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/package.json
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.860
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/public/stylesheets/style.css
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.861
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459565572656/myNodejs/app.js
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.948
+!MESSAGE templateRoot: /home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.949
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.sublime-project
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.949
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/README.md
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.950
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.jshintrc
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.952
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/.jsdtscope
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.953
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/org.eclipse.wst.jsdt.ui.superType.name
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.953
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/org.eclipse.wst.jsdt.ui.superType.container
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.954
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/org.eclipse.wst.jsdt.core.prefs
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.965
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/com.eclipsesource.jshint.ui.prefs
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.994
+!MESSAGE templateRoot: /home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/tern-node
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 10:52:52.995
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/tern-node/.tern-project
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 10:52:59.176
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 10:52:59.176
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@158e3000,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29f15b0e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.746
+!MESSAGE RelativityFileSystemStructureProvider.cllectFiles() called. file count=8
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.824
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/routes/index.js
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.827
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/routes/users.js
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.827
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/views/error.ejs
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.828
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/views/index.ejs
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.829
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/bin/www
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.829
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/package.json
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.830
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/public/stylesheets/style.css
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.831
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/tmp/express-work/1459566417579/myNodejs/app.js
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.838
+!MESSAGE templateRoot: /home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.838
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.sublime-project
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.839
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/README.md
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.839
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.jshintrc
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.840
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/.jsdtscope
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.840
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/org.eclipse.wst.jsdt.ui.superType.name
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.841
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/org.eclipse.wst.jsdt.ui.superType.container
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.842
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/org.eclipse.wst.jsdt.core.prefs
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.844
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/common-templates/.settings/com.eclipsesource.jshint.ui.prefs
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.860
+!MESSAGE templateRoot: /home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/tern-node
+
+!ENTRY org.nodeclipse.ui 1 0 2016-04-02 11:06:57.861
+!MESSAGE RelativityFileSystemStructureProvider.getContents() called. elemnt=/home/mqg/eclipse/configuration/org.eclipse.osgi/977/0/.cp/templates/tern-node/.tern-project
+!SESSION 2016-04-02 11:18:24.753 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 11:18:30.937
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 11:18:30.937
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d151924,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64259131,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.core 4 125 2016-04-02 11:21:01.721
+!MESSAGE Exception occurred executing command line.
+!STACK 0
+java.io.IOException: Cannot run program "/usr/local/lib/node_modules/supervisor/lib/supervisor.js" (in directory "/home/mqg/workspace/myNodejs"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at java.lang.Runtime.exec(Runtime.java:617)
+	at org.eclipse.debug.core.DebugPlugin.exec(DebugPlugin.java:881)
+	at org.nodeclipse.debug.launch.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:186)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 8 more
+
+!ENTRY org.eclipse.debug.core 4 125 2016-04-02 11:21:11.977
+!MESSAGE Exception occurred executing command line.
+!STACK 0
+java.io.IOException: Cannot run program "/usr/local/lib/node_modules/supervisor/lib/supervisor.js" (in directory "/home/mqg/workspace/myNodejs"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at java.lang.Runtime.exec(Runtime.java:617)
+	at org.eclipse.debug.core.DebugPlugin.exec(DebugPlugin.java:881)
+	at org.nodeclipse.debug.launch.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:186)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 8 more
+
+!ENTRY org.eclipse.debug.core 4 125 2016-04-02 11:21:42.108
+!MESSAGE Exception occurred executing command line.
+!STACK 0
+java.io.IOException: Cannot run program "/usr/local/lib/node_modules/supervisor/lib/supervisor.js" (in directory "/home/mqg/workspace/myNodejs"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at java.lang.Runtime.exec(Runtime.java:617)
+	at org.eclipse.debug.core.DebugPlugin.exec(DebugPlugin.java:881)
+	at org.nodeclipse.debug.launch.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:186)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 8 more
+
+!ENTRY org.eclipse.debug.core 4 125 2016-04-02 11:22:01.389
+!MESSAGE Exception occurred executing command line.
+!STACK 0
+java.io.IOException: Cannot run program "/usr/local/lib/node_modules/supervisor/lib/supervisor.js" (in directory "/home/mqg/workspace/myNodejs"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at java.lang.Runtime.exec(Runtime.java:617)
+	at org.eclipse.debug.core.DebugPlugin.exec(DebugPlugin.java:881)
+	at org.nodeclipse.debug.launch.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:186)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 8 more
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 11:23:54.837
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 11:23:54.837
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a7c005a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62fb5388,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2016-04-02 11:24:29.573 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 11:24:35.929
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 11:24:35.929
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1717e060,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@208bca78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2016-04-02 11:33:53.842 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 11:34:00.661
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 11:34:00.661
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20273b50,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fa711ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.nodeclipse.ui 4 4 2016-04-02 11:34:59.164
+!MESSAGE Unexpected Exception
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:420)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1002)
+	at org.nodeclipse.ui.wizards.ExpressProjectWizard.createNewProject(ExpressProjectWizard.java:172)
+	at org.nodeclipse.ui.wizards.AbstractNodeProjectWizard.performFinish(AbstractNodeProjectWizard.java:81)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:799)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:429)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1329)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3819)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3430)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:343)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:160)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:175)
+	at org.eclipse.ui.actions.NewWizardDropDownAction.run(NewWizardDropDownAction.java:188)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:462)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1329)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3819)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3430)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+Caused by: java.lang.NumberFormatException: For input string: "Node Supervisor is used to restart programs when they crash"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at org.nodeclipse.ui.util.ProcessUtils.getExpressMajorVersion(ProcessUtils.java:63)
+	at org.nodeclipse.ui.wizards.ExpressProjectWizard.generateExpressApplication(ExpressProjectWizard.java:215)
+	at org.nodeclipse.ui.wizards.ExpressProjectWizard.access$1(ExpressProjectWizard.java:199)
+	at org.nodeclipse.ui.wizards.ExpressProjectWizard$2.run(ExpressProjectWizard.java:122)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Root exception:
+java.lang.NumberFormatException: For input string: "Node Supervisor is used to restart programs when they crash"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at org.nodeclipse.ui.util.ProcessUtils.getExpressMajorVersion(ProcessUtils.java:63)
+	at org.nodeclipse.ui.wizards.ExpressProjectWizard.generateExpressApplication(ExpressProjectWizard.java:215)
+	at org.nodeclipse.ui.wizards.ExpressProjectWizard.access$1(ExpressProjectWizard.java:199)
+	at org.nodeclipse.ui.wizards.ExpressProjectWizard$2.run(ExpressProjectWizard.java:122)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2016-04-02 11:40:44.664 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-04-02 11:40:47.038
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 11:40:51.556
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 11:40:51.556
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43af9a77,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dc61d58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2016-04-02 11:41:02.391
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2016-04-02 11:41:02.392
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+!SESSION 2016-04-02 11:51:00.820 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-04-02 11:51:03.310
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 11:51:07.463
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 11:51:07.464
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fe6def3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e374c80,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-04-02 11:51:22.840
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+!SESSION 2016-04-02 14:19:16.651 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-04-02 14:19:19.041
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 14:19:22.991
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 14:19:22.991
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5888a5d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@733e2818,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-04-02 14:19:37.127
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 14:21:09.304
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 14:21:09.304
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64ece2f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c28f9e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-04-02 14:23:28.282
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v8.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-04-02 14:23:36.390
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v8.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-02 14:23:38.170
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-02 14:23:38.188
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-02 14:23:38.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2016-04-02 14:24:18.210
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.format: {org.eclipse.wst.sse.ui.internal.handlers.FormatHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.FormatHandler}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-02 14:54:31.883
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-02 14:54:31.887
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-02 14:54:31.892
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-04-02 15:33:28.224 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.421
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/name.schedenig.eclipse.grepconsole_3.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.422
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.jjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.423
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.jade.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.423
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jumperz.app.MMonjaDB_1.0.16.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.424
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/gitaddon.feature_1.0.0.20140303-0606.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.425
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.eclipsesource.jshint.feature_0.9.10.20141011-1730.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.425
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.vtst.ow.eclipse.less.feature_1.0.19.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.426
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.mongodb.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.426
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.xored.glance_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.427
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.pdetools.feature_1.2.6.I20150812-105126.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.428
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.sweetlemonade.eclipse.json.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.428
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.coffee.feature_1.6.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.429
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.sourceforge.shelled_2.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.429
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.express.feature_3.2.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.430
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.431
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jdt.spelling.feature_1.0.0.v20141130-2055.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.431
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.satyagraha.gfm.viewer.feature_1.9.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.432
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/PracticallyMacroFeature_0.4.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.433
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jsonedit-feature_0.9.7.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.433
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.phantomjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.434
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/OpenClosedProjectsFeature_1.0.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.434
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.mihai-nita.ansicon_1.3.1.201508091828.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.434
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.maven.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.435
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.dadacoalition.yedit_0.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.435
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/zipeditor_1.1.2.201409260755.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.436
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.eclipse_icons.editor.feature_2.4.1.201311032200.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.436
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.sdk_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.437
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.debug_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.438
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipsecolortheme.feature_1.0.0.201410260308.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.438
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.438
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.studio.included.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.439
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/de.bastiankrol.startexplorer.feature_1.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.439
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.nodejs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.439
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.440
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.eclipse.themes.feature_2.2.0.I20141210-114528.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.440
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.swtend.feature_2.2.5.I20140918-144458.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.441
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.google.restclient.tool.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.441
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.vertx.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.441
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.pluginslist.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.442
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/io.emmet.eclipse_1.0.0.201401132323.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.442
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/SelectionExplorerFeature_1.0.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.442
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/pm.eclipse.editbox.feature_0.70.0.201508180438.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.443
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipseuitheme.themes.feature_0.8.9.201404052318.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.443
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/it.unibz.instasearch.feature.indigo_1.5.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.444
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/markdown.editor.feature_1.2.0.201501260515.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.444
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/EclipseRunnerFeature_1.3.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.519
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/name.schedenig.eclipse.grepconsole_3.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.519
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.jjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.520
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.jade.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.520
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jumperz.app.MMonjaDB_1.0.16.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.520
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/gitaddon.feature_1.0.0.20140303-0606.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.520
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.eclipsesource.jshint.feature_0.9.10.20141011-1730.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.521
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.vtst.ow.eclipse.less.feature_1.0.19.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.521
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.mongodb.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.521
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.xored.glance_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.521
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.pdetools.feature_1.2.6.I20150812-105126.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.521
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.sweetlemonade.eclipse.json.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.522
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.coffee.feature_1.6.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.522
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.sourceforge.shelled_2.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.522
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.bundle.express.feature_3.2.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.522
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.523
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jdt.spelling.feature_1.0.0.v20141130-2055.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.523
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.satyagraha.gfm.viewer.feature_1.9.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.523
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/PracticallyMacroFeature_0.4.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.523
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/jsonedit-feature_0.9.7.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.523
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.phantomjs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.524
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/OpenClosedProjectsFeature_1.0.5.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.524
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.mihai-nita.ansicon_1.3.1.201508091828.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.524
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.maven.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.524
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.dadacoalition.yedit_0.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.524
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/zipeditor_1.1.2.201409260755.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.524
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.eclipse_icons.editor.feature_2.4.1.201311032200.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.525
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.sdk_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.525
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.chromium.debug_0.3.9.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.525
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipsecolortheme.feature_1.0.0.201410260308.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.525
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.editors.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.526
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.studio.included.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.526
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/de.bastiankrol.startexplorer.feature_1.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.526
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.nodejs.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.526
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.enide.gradle.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.526
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.eclipse.themes.feature_2.2.0.I20141210-114528.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.527
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/net.jeeeyul.swtend.feature_2.2.5.I20140918-144458.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.527
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/code.google.restclient.tool.feature_1.0.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.527
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.vertx.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.527
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/org.nodeclipse.pluginslist.feature_1.0.2.201509250223.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.527
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/io.emmet.eclipse_1.0.0.201401132323.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.528
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/SelectionExplorerFeature_1.0.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.528
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/pm.eclipse.editbox.feature_0.70.0.201508180438.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.528
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/com.github.eclipseuitheme.themes.feature_0.8.9.201404052318.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.528
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/it.unibz.instasearch.feature.indigo_1.5.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.528
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/markdown.editor.feature_1.2.0.201501260515.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-02 15:33:31.529
+!MESSAGE Unable to acquire PluginConverter service during generation for: /home/mqg/eclipse/myPlugins/nodejs/eclipse/features/EclipseRunnerFeature_1.3.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 15:33:31.566
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/mqg/eclipse/myPlugins/maven.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-02 15:33:31.567
+!MESSAGE No repository found at file:/home/mqg/eclipse/myPlugins/maven.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 15:33:31.574
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/mqg/eclipse/myPlugins/maven.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:143)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2016-04-02 15:33:31.575
+!MESSAGE No repository found at file:/home/mqg/eclipse/myPlugins/maven.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 15:33:31.597
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-02 15:33:31.598
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 15:33:31.601
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:143)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2016-04-02 15:33:31.601
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/tomcat.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 15:33:31.604
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-02 15:33:31.604
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-02 15:33:31.608
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:143)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:543)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:173)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2016-04-02 15:33:31.608
+!MESSAGE No repository found at file:/home/cloud/eclipse/myPlugins/maven.
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 15:33:36.757
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 15:33:36.757
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@184894ef,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4529e35d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2016-04-02 15:34:06.159
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-02 15:34:06.159
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4515b9d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@155c78fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-04-02 15:34:26.202
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+
+!ENTRY org.eclipse.core.expressions 4 201 2016-04-02 15:39:33.310
+!MESSAGE No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:305)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:247)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:216)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:235)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:106)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:148)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:128)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:63)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:219)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:174)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:267)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.menuAboutToShow(CommonNavigatorManager.java:283)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:333)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:466)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:461)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:493)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1329)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1334)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:198)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3861)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-04-02 15:39:33.310
+!MESSAGE No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-04-02 16:00:03.368
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v8.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.core.expressions 4 201 2016-04-02 16:53:36.431
+!MESSAGE No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:305)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:247)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:216)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:235)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:106)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:148)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:128)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:63)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:219)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:174)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:267)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.menuAboutToShow(CommonNavigatorManager.java:283)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:333)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:466)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:461)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:493)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1329)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1334)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:198)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3861)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-04-02 16:53:36.431
+!MESSAGE No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+
+!ENTRY org.eclipse.core.expressions 4 201 2016-04-02 16:53:45.907
+!MESSAGE No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:305)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:247)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:216)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:235)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:106)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:148)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:128)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:63)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:219)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:174)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:267)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.menuAboutToShow(CommonNavigatorManager.java:283)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:333)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:466)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:461)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:493)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1329)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1334)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:198)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3861)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-04-02 16:53:45.908
+!MESSAGE No property tester contributes a property org.chromium.debug.core.isJsFile to type class org.eclipse.jdt.internal.core.CompilationUnit

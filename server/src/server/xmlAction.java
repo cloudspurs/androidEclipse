@@ -1,81 +1,40 @@
 package server;
+
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Writer;
-import org.dom4j.Document;
-import org.dom4j.DocumentHelper;
+ 
+import org.dom4j.Document; 
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-import org.dom4j.io.XMLWriter;
+ 
 
 public class xmlAction {
-	 
-	public static void createXml(userInfo userinfo, String file) {
-		
-        try {
-        	
-            // 创建Document对象  
-            Document document = DocumentHelper.createDocument();  
-            
-            // 添加根节点users
-            Element root = document.addElement("users");  
-            
-            // 添加子节点email
-            Element email = root.addElement("email"); 
-            email.setText(userinfo.getEmail());
-            
-            // 添加子节点file
-            Element filename = root.addElement("filename");
-            filename.setText(userinfo.getFile());
-            
-            // 将document文档写入user.xml文件
-            Writer fileWriter = new FileWriter(file);
-            
-            //dom4j提供了专门写入文件的对象XMLWriter  
-            XMLWriter xmlWriter = new XMLWriter(fileWriter);  
-          
-            xmlWriter.write(document);  
-            xmlWriter.flush();  
-            xmlWriter.close();
-            
-            // 将document文档对象直接转换成字符串输出 
-            System.out.println(document.asXML());
-            
-            System.out.println("xml文档添加成功！");  
-            
-        } catch (IOException e) {  
-            e.printStackTrace();  
-        }  
-	}
 	
 	public static userInfo readXml(String file){
 		
 		userInfo userinfo = new userInfo();
         try{
-        	InputStream inputStream = new FileInputStream(new File(file));
-        	
         	//新建SaxReader对象，读取XML文档   
-            SAXReader saxReader = new SAXReader();
+            SAXReader saxReader = new SAXReader();  
                
-            Document document = saxReader.read(inputStream);	 
-            
+            Document document = saxReader.read(new File(file));	// 必须指定文件的绝对路径  
+              
             //获取根节点对象  
-            Element root = document.getRootElement();
+            Element userElement = document.getRootElement();
             
-            //获取email子节点  
-            Element email = root.element("email");  
+            // 在控制台打印xml文件
+            System.out.println(document.asXML());
+            
+            //获email取子节点  
+            Element email = userElement.element("email");  
             if(email != null){  
             	userinfo.setEmail(email.getText());
             }
             
-            // 获取filename子节点
-            Element filename = root.element("filename");  
+          //获filename取子节点  
+            Element filename = userElement.element("filename");  
             if(filename != null){  
             	userinfo.setFile(filename.getText());
-            }
+            }  
             
         } catch (Exception e) {    
             e.printStackTrace();    
@@ -84,6 +43,105 @@ public class xmlAction {
         return userinfo;
     }
 
+/*	
+	public static void main(String[] args) {
+		users root = new users();
+		root.setEmail("my@email.cn");
+		
+        userInfo userinfo = new userInfo();
+        userinfo.setUser(root);
+        
+        userinfo.createInfo();
+        
+        users t = userinfo.readInfo(userinfo.path);
+        System.out.println("a");
+        System.out.println(t);
+        System.out.println("a");
+        
+        String uuid = UUID.randomUUID().toString();
+        uuid = uuid.replaceAll("-", "");
+        
+        System.out.println(uuid.toString()); 
+	}
+
 }
 
- 
+  public void parseXml01(){  
+        try{  
+            //将src下面的xml转换为输入流  
+            InputStream inputStream = new FileInputStream(new File("D:/project/dynamicWeb/src/resource/module01.xml"));   
+            //InputStream inputStream = this.getClass().getResourceAsStream("/module01.xml");//也可以根据类的编译文件相对路径去找xml  
+            //创建SAXReader读取器，专门用于读取xml  
+            SAXReader saxReader = new SAXReader();  
+            //根据saxReader的read重写方法可知，既可以通过inputStream输入流来读取，也可以通过file对象来读取   
+            //Document document = saxReader.read(inputStream);    
+            Document document = saxReader.read(new File("D:/project/dynamicWeb/src/resource/module01.xml"));//必须指定文件的绝对路径  
+            //另外还可以使用DocumentHelper提供的xml转换器也是可以的。  
+            //Document document = DocumentHelper.parseText("<?xml version=\"1.0\" encoding=\"UTF-8\"?><modules id=\"123\"><module> 这个是module标签的文本信息</module></modules>");  
+              
+            //获取根节点对象  
+            Element userElement = document.getuserElement();    
+            System.out.println("根节点名称：" + userElement.getName());//获取节点的名称  
+            System.out.println("根节点有多少属性：" + userElement.attributeCount());//获取节点属性数目  
+            System.out.println("根节点id属性的值：" + userElement.attributeValue("id"));//获取节点的属性id的值  
+            System.out.println("根节点内文本：" + userElement.getText());//如果元素有子节点则返回空字符串，否则返回节点内的文本  
+            //userElement.getText() 之所以会换行是因为 标签与标签之间使用了tab键和换行符布局，这个也算是文本所以显示出来换行的效果。  
+            System.out.println("根节点内文本(1)：" + userElement.getTextTrim());//去掉的是标签与标签之间的tab键和换行符等等，不是内容前后的空格  
+            System.out.println("根节点子节点文本内容：" + userElement.getStringValue()); //返回当前节点递归所有子节点的文本信息。  
+              
+            //获取子节点  
+            Element element = userElement.element("module");  
+            if(element != null){  
+                System.out.println("子节点的文本：" + element.getText());//因为子节点和根节点都是Element对象所以它们的操作方式都是相同的  
+            }  
+            //但是有些情况xml比较复杂，规范不统一，某个节点不存在直接java.lang.NullPointerException，所以获取到element对象之后要先判断一下是否为空  
+              
+            userElement.setName("root");//支持修改节点名称  
+            System.out.println("根节点修改之后的名称：" + userElement.getName());  
+            userElement.setText("text"); //同样修改标签内的文本也一样  
+            System.out.println("根节点修改之后的文本：" + userElement.getText());  
+        } catch (Exception e) {    
+            e.printStackTrace();    
+        }    
+    }  
+      
+    public static void main(String[] args) {  
+        Dom4jParseXmlDemo demo = new Dom4jParseXmlDemo();  
+        demo.parseXml01();  
+    }
+
+
+try {  
+    //DocumentHelper提供了创建Document对象的方法  
+    Document document = DocumentHelper.createDocument();  
+    //添加节点信息  
+    Element userElement = document.addElement("modules");  
+    //这里可以继续添加子节点，也可以指定内容  
+    userElement.setText("这个是module标签的文本信息");  
+    Element element = userElement.addElement("module");  
+      
+    Element nameElement = element.addElement("name");  
+    Element valueElement = element.addElement("value");  
+    Element descriptionElement = element.addElement("description");  
+    nameElement.setText("名称");  
+    nameElement.addAttribute("language", "java");//为节点添加属性值  
+    valueElement.setText("值");  
+    valueElement.addAttribute("language", "c#");  
+    descriptionElement.setText("描述");  
+    descriptionElement.addAttribute("language", "sql server");  
+    System.out.println(document.asXML()); //将document文档对象直接转换成字符串输出  
+    Writer fileWriter = new FileWriter("/home/mqg/root.xml");  
+    //dom4j提供了专门写入文件的对象XMLWriter  
+    XMLWriter xmlWriter = new XMLWriter(fileWriter);  
+    xmlWriter.write(document);  
+    xmlWriter.flush();  
+    xmlWriter.close();  
+    System.out.println("xml文档添加成功！");  
+} catch (IOException e) {  
+    e.printStackTrace();  
+}  
+} 
+
+*/
+	
+}
